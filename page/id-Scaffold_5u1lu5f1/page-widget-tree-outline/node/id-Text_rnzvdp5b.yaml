@@ -1,0 +1,12 @@
+key: Text_rnzvdp5b
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: x6rakpg5
+    selectable: false
+    textValue:
+      inputValue: Order Confirmed
+    fontWeightValue:
+      inputValue: w600

@@ -1,0 +1,15 @@
+key: Icon_uwrewt6k
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: INFO
+    iconDataValue:
+      inputValue:
+        codePoint: 57686
+        family: MaterialIcons
+        matchTextDirection: false
+        name: check

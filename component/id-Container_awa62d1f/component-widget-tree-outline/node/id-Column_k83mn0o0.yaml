@@ -1,0 +1,21 @@
+key: Column_k83mn0o0
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_end
+    primary: true
+    listSpacing: {}
+  alignment:
+    xValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

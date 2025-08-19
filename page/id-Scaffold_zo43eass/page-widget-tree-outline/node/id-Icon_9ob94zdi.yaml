@@ -1,0 +1,30 @@
+key: Icon_9ob94zdi
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 20
+      mostRecentInputValue: 20
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    iconDataValue:
+      inputValue:
+        codePoint: 61866
+        family: MaterialIcons
+        matchTextDirection: false
+        name: mail_outlined
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

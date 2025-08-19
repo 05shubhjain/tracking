@@ -1,0 +1,95 @@
+key: Container_vg6xlkz2
+type: Container
+props:
+  padding:
+    leftValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    topValue:
+      inputValue: 54
+      mostRecentInputValue: 54
+    rightValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  alignment:
+    xValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    dwvi3i:
+      paramIdentifier:
+        name: backButton
+        key: dwvi3i
+      inputValue:
+        serializedValue: "true"
+    dk2qeb:
+      paramIdentifier:
+        name: actionButton
+        key: dk2qeb
+      inputValue:
+        serializedValue: "false"
+    sptaqo:
+      paramIdentifier:
+        name: actionButtonText
+        key: sptaqo
+    tzfie9:
+      paramIdentifier:
+        name: optionsButton
+        key: tzfie9
+      inputValue:
+        serializedValue: "true"
+  widgetClassNodeKeyRef:
+    key: Container_tonp2zmx
+triggerActions:
+  - rootAction:
+      key: jacrb472
+      action:
+        bottomSheet:
+          passedParameters:
+            parameterPasses:
+              grnl1v:
+                paramIdentifier:
+                  name: mealRef
+                  key: grnl1v
+                variable:
+                  source: WIDGET_CLASS_PARAMETER
+                  baseVariable:
+                    widgetClass:
+                      paramIdentifier:
+                        name: mealRef
+                        key: g56mhg
+                  nodeKeyRef:
+                    key: Scaffold_yy6lt0qi
+            widgetClassNodeKeyRef:
+              key: Container_awa62d1f
+          isDismiss: false
+          enableDrag: true
+          backgroundColor:
+            inputValue:
+              color:
+                value: "16777215"
+          barrierColor:
+            inputValue:
+              color: {}
+          componentClassNodeKeyRef:
+            key: Container_awa62d1f
+        key: coqd0f2t
+    trigger:
+      triggerType: CALLBACK
+      parameterIdentifier:
+        name: optionsButtonAction
+        key: tuljcd
+valueKey: {}
+componentClassKeyRef:
+  key: Container_tonp2zmx

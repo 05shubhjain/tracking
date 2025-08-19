@@ -1,0 +1,11 @@
+key: Divider_rxjm19p2
+type: Divider
+props:
+  padding: {}
+  divider:
+    lineStyle: SOLID
+    thicknessValue:
+      inputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE

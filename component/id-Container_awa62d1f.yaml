@@ -1,0 +1,14 @@
+name: mealBottomSheet
+params:
+  grnl1v:
+    identifier:
+      name: mealRef
+      key: grnl1v
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: meals
+          key: k3qo0axl
+node:
+  key: Container_awa62d1f

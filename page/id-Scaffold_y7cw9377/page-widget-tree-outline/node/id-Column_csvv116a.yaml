@@ -1,0 +1,24 @@
+key: Column_csvv116a
+type: Column
+props:
+  column:
+    listSpacing:
+      spacingValue:
+        inputValue: 1
+    minSizeValue:
+      inputValue: false
+  padding:
+    leftValue:
+      inputValue: 20
+    topValue:
+      inputValue: 20
+    rightValue:
+      inputValue: 20
+    bottomValue:
+      inputValue: 20
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+    animatedOpacity: {}
+valueKey: {}

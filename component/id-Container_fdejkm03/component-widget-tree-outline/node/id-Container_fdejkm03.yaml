@@ -1,0 +1,12 @@
+key: Container_fdejkm03
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: titleWithSubtitle
+isDummyRoot: true

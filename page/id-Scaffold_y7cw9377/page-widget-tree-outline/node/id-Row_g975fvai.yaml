@@ -1,0 +1,6 @@
+key: Row_g975fvai
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_space_between
+  padding: {}

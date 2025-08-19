@@ -1,0 +1,19 @@
+key: Text_4ar4j9zw
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: xbdi8ley
+    selectable: false
+    textValue:
+      inputValue: Cucumber
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

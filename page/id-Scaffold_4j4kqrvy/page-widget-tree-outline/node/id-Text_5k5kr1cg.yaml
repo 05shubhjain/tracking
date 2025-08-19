@@ -1,0 +1,23 @@
+key: Text_5k5kr1cg
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: ff5kww42
+    selectable: false
+    textValue:
+      inputValue: Diet
+      mostRecentInputValue: Diet
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

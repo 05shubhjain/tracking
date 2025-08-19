@@ -1,0 +1,77 @@
+active: true
+firebase:
+  createUserDocument:
+    collectionIdentifier:
+      name: users
+      key: dij4596p
+    write:
+      updates:
+        display_name:
+          fieldIdentifier:
+            name: display_name
+          variable:
+            source: WIDGET_STATE
+            baseVariable:
+              widgetState:
+                returnParameter:
+                  allowedDestinationTypes:
+                    - Integer
+                    - Double
+                    - Boolean
+                    - ImagePath
+                    - VideoPath
+                    - AudioPath
+                  dataType:
+                    scalarType: String
+            nodeKeyRef:
+              key: TextField_28cxhxrv
+        diet:
+          fieldIdentifier:
+            name: diet
+          variable:
+            source: LOCAL_STATE
+            baseVariable:
+              localState:
+                fieldIdentifier:
+                  name: userDiet
+                  key: so75dd7j
+                stateVariableType: APP_STATE
+        allergens:
+          fieldIdentifier:
+            name: allergens
+          fieldValue:
+            fieldValue: SET
+            value:
+              fieldIdentifier:
+                name: allergens
+              variable:
+                source: LOCAL_STATE
+                baseVariable:
+                  localState:
+                    fieldIdentifier:
+                      name: userAllergens
+                      key: 3fsiu6l5
+                    stateVariableType: APP_STATE
+        ingredient_dislikes:
+          fieldIdentifier:
+            name: ingredient_dislikes
+          fieldValue:
+            fieldValue: SET
+            value:
+              fieldIdentifier:
+                name: ingredient_dislikes
+              variable:
+                source: LOCAL_STATE
+                baseVariable:
+                  localState:
+                    fieldIdentifier:
+                      name: userIngredientDislikes
+                      key: svfbhq3m
+                    stateVariableType: APP_STATE
+firebaseConfigFileInfos:
+  - androidPath: users/OszLz8aCoIVN1Bj28DUlblNQA052/projects/meal-planner-app-nt2igx/configs/ucjbmsjox7dr/google-services.json
+    iosPath: users/OszLz8aCoIVN1Bj28DUlblNQA052/projects/meal-planner-app-nt2igx/configs/7brn5n82dty2/GoogleService-Info.plist
+    webConfig: "\/\/ Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n\/\/ You will also need to load the Firebase SDK.\n\/\/ See https:\/\/firebase.google.com\/docs\/web\/setup for more details.\n\nfirebase.initializeApp({\n  \"projectId\": \"meal-planner-3841f\",\n  \"appId\": \"1:921473207936:web:57d3d363b2aeb24d182065\",\n  \"storageBucket\": \"meal-planner-3841f.appspot.com\",\n  \"apiKey\": \"AIzaSyC60LWWGMOA6bWdiPvXey2E8z5xeSdFuPM\",\n  \"authDomain\": \"meal-planner-3841f.firebaseapp.com\",\n  \"messagingSenderId\": \"921473207936\",\n  \"measurementId\": \"G-V0P4VG9DJX\"\n});\n"
+    environment:
+      name: Production
+      key: PROD

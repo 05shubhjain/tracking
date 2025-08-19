@@ -1,0 +1,62 @@
+key: Container_3i8drw6f
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 450
+          mostRecentInputValue: 450
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ONLY
+        topLeftValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        topRightValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+        pathValue:
+          variable:
+            source: WIDGET_CLASS_PARAMETER
+            defaultValue:
+              serializedValue: https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+            baseVariable:
+              widgetClass:
+                paramIdentifier:
+                  name: mealRef
+                  key: g56mhg
+            operations:
+              - accessDocumentField:
+                  fieldIdentifier:
+                    name: meal_image
+            nodeKeyRef:
+              key: Scaffold_yy6lt0qi
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  alignment:
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

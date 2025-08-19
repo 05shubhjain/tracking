@@ -1,0 +1,7 @@
+key: Column_6hvxgsyv
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+  responsiveVisibility: {}

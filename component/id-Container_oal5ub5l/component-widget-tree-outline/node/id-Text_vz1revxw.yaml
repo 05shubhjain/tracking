@@ -1,0 +1,23 @@
+key: Text_vz1revxw
+type: Text
+props:
+  text:
+    themeStyle: TITLE_LARGE
+    translationIdentifier:
+      key: 1yod7mp2
+    selectable: false
+    textValue:
+      inputValue: Send Anonymous Feedback
+      mostRecentInputValue: Send Anonymous Feedback
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

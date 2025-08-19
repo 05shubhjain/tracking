@@ -1,0 +1,30 @@
+fields:
+  - parameter:
+      identifier:
+        name: userDiet
+        key: so75dd7j
+      dataType:
+        scalarType: String
+        subType:
+          collectionIdentifier: {}
+    persisted: false
+  - parameter:
+      identifier:
+        name: userAllergens
+        key: 3fsiu6l5
+      dataType:
+        listType:
+          scalarType: String
+        subType:
+          collectionIdentifier: {}
+    persisted: false
+  - parameter:
+      identifier:
+        name: userIngredientDislikes
+        key: svfbhq3m
+      dataType:
+        listType:
+          scalarType: String
+        subType:
+          collectionIdentifier: {}
+    persisted: false

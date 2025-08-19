@@ -1,0 +1,26 @@
+name: mealCard
+params:
+  4as1dk:
+    identifier:
+      name: mealRef
+      key: 4as1dk
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: meals
+          key: k3qo0axl
+node:
+  key: Container_ssjuo7cz
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: liked
+          key: 0fubf
+        defaultValue: {}
+        dataType:
+          scalarType: Boolean
+          nonNullable: false
+      serializedDefaultValue:
+        - "false"

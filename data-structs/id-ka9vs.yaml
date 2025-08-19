@@ -1,0 +1,19 @@
+identifier:
+  name: chefs
+  key: ka9vs
+fields:
+  - identifier:
+      name: profile_picture
+      key: z5a12
+    dataType:
+      scalarType: ImagePath
+  - identifier:
+      name: name
+      key: itius
+    dataType:
+      scalarType: String
+  - identifier:
+      name: bio
+      key: 6ekxd
+    dataType:
+      scalarType: String

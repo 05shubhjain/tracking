@@ -1,0 +1,19 @@
+key: Text_wumqftw8
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: moj4seas
+    selectable: false
+    textValue:
+      inputValue: Wild Salmon
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

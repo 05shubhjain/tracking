@@ -1,0 +1,27 @@
+key: Icon_1xcp2alj
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 63287
+        family: MaterialIcons
+        matchTextDirection: false
+        name: favorite_border_rounded
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  responsiveVisibility: {}
+parameterValues: {}

@@ -1,0 +1,23 @@
+key: Text_3ps53646
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: 56rqthk3
+    selectable: false
+    textValue:
+      inputValue: Don't have an account yet?
+      mostRecentInputValue: Don't have an account yet?
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

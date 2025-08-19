@@ -1,0 +1,31 @@
+templateType: LARGE_HEADER
+backgroundColor:
+  themeColor: PRIMARY
+elevation: 2
+defaultIcon:
+  sizeValue:
+    inputValue: 30
+    mostRecentInputValue: 30
+  colorValue:
+    inputValue:
+      value: "4294967295"
+    mostRecentInputValue:
+      value: "4294967295"
+  iconDataValue:
+    inputValue:
+      codePoint: 62834
+      family: MaterialIcons
+      matchTextDirection: true
+      name: arrow_back_rounded
+textStyle:
+  themeStyle: HEADLINE_MEDIUM
+  fontSizeValue:
+    inputValue: 22
+    mostRecentInputValue: 22
+  colorValue:
+    inputValue:
+      value: "4294967295"
+    mostRecentInputValue:
+      value: "4294967295"
+addOnNewPages: true
+responsiveVisibility: {}

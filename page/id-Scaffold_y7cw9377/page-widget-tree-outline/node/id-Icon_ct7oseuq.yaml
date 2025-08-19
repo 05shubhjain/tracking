@@ -1,0 +1,15 @@
+key: Icon_ct7oseuq
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY
+    iconDataValue:
+      inputValue:
+        codePoint: 58283
+        family: MaterialIcons
+        matchTextDirection: false
+        name: location_on

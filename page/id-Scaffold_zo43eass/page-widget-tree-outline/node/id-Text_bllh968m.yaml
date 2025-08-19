@@ -1,0 +1,22 @@
+key: Text_bllh968m
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 57x88ouh
+    selectable: false
+    textValue:
+      inputValue: Track order
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

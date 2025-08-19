@@ -1,0 +1,86 @@
+key: Container_or1jni5i
+type: Container
+props:
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    dwvi3i:
+      paramIdentifier:
+        name: backButton
+        key: dwvi3i
+      inputValue:
+        serializedValue: "true"
+    dk2qeb:
+      paramIdentifier:
+        name: actionButton
+        key: dk2qeb
+      inputValue:
+        serializedValue: "true"
+    sptaqo:
+      paramIdentifier:
+        name: actionButtonText
+        key: sptaqo
+      inputValue:
+        serializedValue: Save
+  widgetClassNodeKeyRef:
+    key: Container_tonp2zmx
+triggerActions:
+  - rootAction:
+      key: yl3ezini
+      action:
+        database:
+          updateDocument:
+            write:
+              updates:
+                display_name:
+                  fieldIdentifier:
+                    name: display_name
+                  variable:
+                    source: WIDGET_STATE
+                    baseVariable:
+                      widgetState:
+                        returnParameter:
+                          allowedDestinationTypes:
+                            - Integer
+                            - Double
+                            - Boolean
+                            - ImagePath
+                            - VideoPath
+                            - AudioPath
+                          dataType:
+                            scalarType: String
+                    nodeKeyRef:
+                      key: TextField_344297mp
+            reference:
+              source: FIREBASE_AUTH_USER
+              baseVariable:
+                auth:
+                  property: USER_REFERENCE
+        key: d133837n
+      followUpAction:
+        key: qyyrq7ad
+        action:
+          localStateUpdate:
+            updates:
+              - fieldIdentifier:
+                  name: unsavedChanges
+                  key: h8tcn
+                setValue:
+                  inputValue: {}
+            updateType: WIDGET
+            stateVariableType: WIDGET_CLASS_STATE
+          key: oams0lmu
+    trigger:
+      triggerType: CALLBACK
+      parameterIdentifier:
+        name: actionButtonAction
+        key: a5yeh6
+valueKey: {}
+componentClassKeyRef:
+  key: Container_tonp2zmx

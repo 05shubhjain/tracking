@@ -1,0 +1,40 @@
+name: accordion
+params:
+  7fwssp:
+    identifier:
+      name: expandedAccordionIndex
+      key: 7fwssp
+    dataType:
+      scalarType: Integer
+      nonNullable: true
+  o0wzzg:
+    identifier:
+      name: accordionIndex
+      key: o0wzzg
+    dataType:
+      scalarType: Integer
+      nonNullable: true
+  czdxw3:
+    identifier:
+      name: question
+      key: czdxw3
+    dataType:
+      scalarType: String
+      nonNullable: true
+  d0vx9b:
+    identifier:
+      name: answer
+      key: d0vx9b
+    dataType:
+      scalarType: String
+      nonNullable: true
+  dbczd0:
+    identifier:
+      name: action
+      key: dbczd0
+    dataType:
+      scalarType: Action
+      nonNullable: true
+node:
+  key: Container_ymjlg9md
+classModel: {}

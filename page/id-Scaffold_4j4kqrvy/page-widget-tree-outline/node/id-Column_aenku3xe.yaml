@@ -1,0 +1,14 @@
+key: Column_aenku3xe
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: dislikedTile
+parameterValues: {}
+valueKey: {}

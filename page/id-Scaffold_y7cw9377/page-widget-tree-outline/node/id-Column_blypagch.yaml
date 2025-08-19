@@ -1,0 +1,9 @@
+key: Column_blypagch
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    minSizeValue:
+      inputValue: false
+  expanded:
+    expandedType: EXPANDED

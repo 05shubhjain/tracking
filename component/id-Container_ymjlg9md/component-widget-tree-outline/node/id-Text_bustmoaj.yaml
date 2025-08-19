@@ -1,0 +1,51 @@
+key: Text_bustmoaj
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: 2eb5m2nj
+    selectable: false
+    textValue:
+      inputValue: Yes !! The food is 100% healthy.
+    heightValue:
+      inputValue: 1.4
+      mostRecentInputValue: 1.4
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: parameter1
+                      key: 7fwssp
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: parameter2
+                      key: o0wzzg
+          condition:
+            relation: EQUAL_TO
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: answer
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,27 @@
+key: Container_kia8ikej
+type: Container
+props:
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    4as1dk:
+      paramIdentifier:
+        name: mealRef
+        key: 4as1dk
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        nodeKeyRef:
+          key: GridView_pju8yh48
+  widgetClassNodeKeyRef:
+    key: Container_ssjuo7cz
+dynamicComponentKey:
+  uniqueKey: {}
+valueKey: {}
+componentClassKeyRef:
+  key: Container_ssjuo7cz

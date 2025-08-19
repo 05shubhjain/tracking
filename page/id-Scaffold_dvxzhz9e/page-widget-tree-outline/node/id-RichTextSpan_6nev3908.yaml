@@ -1,0 +1,17 @@
+key: RichTextSpan_6nev3908
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: DISPLAY_SMALL
+      translationIdentifier:
+        key: xhhiwnms
+      textValue:
+        inputValue: Planner
+        mostRecentInputValue: Planner
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+parameterValues: {}

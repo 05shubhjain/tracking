@@ -1,0 +1,70 @@
+key: PageView_2tjx3aw5
+type: PageView
+props:
+  expanded:
+    expandedType: EXPANDED
+  pageView:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 500
+          mostRecentInputValue: 500
+    scrollDirection: FF_AXIS_HORIZONTAL
+    margin:
+      type: FF_PADDING_ONLY
+      bottomValue:
+        inputValue: 50
+        mostRecentInputValue: 50
+    indicatorOptions:
+      hasIndicator: true
+      alignment:
+        xValue:
+          inputValue: 0
+          mostRecentInputValue: 0
+        yValue:
+          inputValue: 1
+          mostRecentInputValue: 1
+      indicatorPadding:
+        type: FF_PADDING_ONLY
+        bottomValue:
+          inputValue: 10
+          mostRecentInputValue: 10
+      expansionFactor: 3
+      outline: false
+      spacingValue:
+        inputValue: 10
+        mostRecentInputValue: 10
+      borderRadiusValue:
+        inputValue: 10
+        mostRecentInputValue: 10
+      dotWidthValue:
+        inputValue: 10
+        mostRecentInputValue: 10
+      dotHeightValue:
+        inputValue: 10
+        mostRecentInputValue: 10
+      inactiveColorValue:
+        inputValue:
+          themeColor: SECONDARY_TEXT
+        mostRecentInputValue:
+          themeColor: SECONDARY_TEXT
+      activeColorValue:
+        inputValue:
+          themeColor: PRIMARY_TEXT
+        mostRecentInputValue:
+          themeColor: PRIMARY_TEXT
+    allowScrolling: true
+    initialPageIndexValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

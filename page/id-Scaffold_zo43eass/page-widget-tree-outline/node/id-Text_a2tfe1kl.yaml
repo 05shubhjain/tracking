@@ -1,0 +1,23 @@
+key: Text_a2tfe1kl
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: b9bfwmlo
+    selectable: false
+    textValue:
+      variable:
+        source: FIREBASE_AUTH_USER
+        baseVariable:
+          auth:
+            property: DISPLAY_NAME
+      mostRecentInputValue: Will Hobick
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: displayNameText
+parameterValues: {}
+valueKey: {}

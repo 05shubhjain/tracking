@@ -1,0 +1,18 @@
+key: Text_lkcaj3de
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: cm13q2us
+    selectable: false
+    textValue:
+      inputValue: Forgot password
+      mostRecentInputValue: Forgot password
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+parameterValues: {}

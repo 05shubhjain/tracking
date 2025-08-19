@@ -1,0 +1,56 @@
+key: Form_1ztf8wd9
+type: Form
+props:
+  responsiveVisibility: {}
+  form:
+    validations:
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: m4lppm7g
+            textValue:
+              inputValue: Full name is required.
+              mostRecentInputValue: Full name is required.
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: lk9f96e1
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_28cxhxrv
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: iyd781wa
+            textValue:
+              inputValue: Email is required.
+              mostRecentInputValue: Email is required.
+          emailRegex: true
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: 3b93m7va
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_g6vq1c59
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: dtyrqbhc
+            textValue:
+              inputValue: Password is required.
+              mostRecentInputValue: Password is required.
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: 1woik12o
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_xw630eg4
+name: signInForm

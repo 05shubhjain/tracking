@@ -1,0 +1,152 @@
+key: Stack_83960l4l
+type: Stack
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    rightValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  stack:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+      height:
+        pixelsValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 04txh5f3
+      conditionActions:
+        falseAction:
+          key: rs3po3k9
+          action:
+            key: 3fm76krr
+            hapticFeedback:
+              type: FF_HAPTIC_FEEDBACK_SELECTION_CLICK
+          followUpAction:
+            key: jgf2f85i
+            action:
+              waitAction:
+                durationMillis: 100
+              key: ebb4d2ri
+            followUpAction:
+              key: uad4o5g2
+              action:
+                key: 5ahltc3t
+                hapticFeedback: {}
+              followUpAction:
+                key: z6mt4mno
+                action:
+                  database:
+                    updateDocument:
+                      write:
+                        updates:
+                          meal_favorites:
+                            fieldIdentifier:
+                              name: meal_favorites
+                            fieldValue:
+                              fieldValue: FIRESTORE_ARRAY_UNION
+                              value:
+                                fieldIdentifier:
+                                  name: meal_favorites
+                                variable:
+                                  source: FIREBASE_AUTH_USER
+                                  baseVariable:
+                                    auth:
+                                      property: USER_REFERENCE
+                      reference:
+                        source: WIDGET_CLASS_PARAMETER
+                        baseVariable:
+                          widgetClass:
+                            paramIdentifier:
+                              name: mealRef
+                              key: 4as1dk
+                        operations:
+                          - accessDocumentField:
+                              documentProperty: REFERENCE
+                        nodeKeyRef:
+                          key: Scaffold_yy6lt0qi
+                  key: hlz8mkd4
+        trueActions:
+          - condition:
+              variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: mealRef
+                      key: 4as1dk
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: meal_favorites
+                  - listContains:
+                      element:
+                        source: FIREBASE_AUTH_USER
+                        baseVariable:
+                          auth:
+                            property: USER_REFERENCE
+                nodeKeyRef:
+                  key: Scaffold_yy6lt0qi
+            trueAction:
+              key: 53rrs37z
+              action:
+                key: glttp7c0
+                hapticFeedback:
+                  type: FF_HAPTIC_FEEDBACK_LIGHT
+              followUpAction:
+                key: z0rin2m0
+                action:
+                  database:
+                    updateDocument:
+                      write:
+                        updates:
+                          meal_favorites:
+                            fieldIdentifier:
+                              name: meal_favorites
+                            fieldValue:
+                              fieldValue: FIRESTORE_ARRAY_REMOVE
+                              value:
+                                fieldIdentifier:
+                                  name: meal_favorites
+                                variable:
+                                  source: FIREBASE_AUTH_USER
+                                  baseVariable:
+                                    auth:
+                                      property: USER_REFERENCE
+                      reference:
+                        source: WIDGET_CLASS_PARAMETER
+                        baseVariable:
+                          widgetClass:
+                            paramIdentifier:
+                              name: mealRef
+                              key: 4as1dk
+                        operations:
+                          - accessDocumentField:
+                              documentProperty: REFERENCE
+                        nodeKeyRef:
+                          key: Scaffold_yy6lt0qi
+                  key: gcnvl3lx
+        key: 4rzyga80
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

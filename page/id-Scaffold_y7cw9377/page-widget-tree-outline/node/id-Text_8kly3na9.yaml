@@ -1,0 +1,19 @@
+key: Text_8kly3na9
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: m19pmw1e
+    selectable: false
+    textValue:
+      inputValue: Lemon Dill Sauce
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

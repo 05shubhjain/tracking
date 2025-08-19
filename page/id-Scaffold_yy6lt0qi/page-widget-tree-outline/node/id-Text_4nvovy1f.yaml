@@ -1,0 +1,23 @@
+key: Text_4nvovy1f
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: 50eq4maz
+    selectable: false
+    textValue:
+      inputValue: "Sourdough bread: 2 slices \nRipe avocado: 1 large \nLemon juice: 1 teaspoon  \r\nExtra virgin olive oil: 1-2 teaspoons \nFlaky sea salt: A pinch\nFreshly cracked black pepper: A pinch \nCrushed red pepper flakes: A pinch "
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    heightValue:
+      inputValue: 1.5
+      mostRecentInputValue: 1.5
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

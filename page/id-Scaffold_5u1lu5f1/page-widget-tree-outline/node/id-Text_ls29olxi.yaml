@@ -1,0 +1,13 @@
+key: Text_ls29olxi
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: hrxnmi7z
+    selectable: false
+    textValue:
+      inputValue: Order Tracking
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

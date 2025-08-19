@@ -1,0 +1,13 @@
+key: Text_2hxc0yx6
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: sfptrkmd
+    selectable: false
+    textValue:
+      inputValue: "Today, 4:45 PM"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

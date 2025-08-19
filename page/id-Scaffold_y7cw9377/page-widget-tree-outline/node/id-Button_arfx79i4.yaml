@@ -1,0 +1,40 @@
+key: Button_arfx79i4
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      translationIdentifier:
+        key: dusd5h6m
+      selectable: true
+      textValue:
+        inputValue: Proceed to Payment
+      colorValue:
+        inputValue:
+          themeColor: INFO
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 25
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 100
+      height:
+        pixelsValue:
+          inputValue: 50
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+  padding: {}

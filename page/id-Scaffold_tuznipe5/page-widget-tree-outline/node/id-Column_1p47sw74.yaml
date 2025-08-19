@@ -1,0 +1,34 @@
+key: Column_1p47sw74
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_center
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+      mostRecentInputValue: true
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    topValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    rightValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    bottomValue:
+      inputValue: 20
+      mostRecentInputValue: 20
+    allValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

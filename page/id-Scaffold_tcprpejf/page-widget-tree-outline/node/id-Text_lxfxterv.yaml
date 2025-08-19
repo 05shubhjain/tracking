@@ -1,0 +1,19 @@
+key: Text_lxfxterv
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    isCustomFont: true
+    translationIdentifier:
+      key: h5o4ato9
+    selectable: false
+    textValue:
+      inputValue: Edit Profile
+      mostRecentInputValue: Edit Profile
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+parameterValues: {}

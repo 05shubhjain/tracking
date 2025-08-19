@@ -1,0 +1,10 @@
+key: Text_sxolvm68
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: spk54ff0
+    selectable: false
+    textValue:
+      inputValue: Mediterranean Bowl

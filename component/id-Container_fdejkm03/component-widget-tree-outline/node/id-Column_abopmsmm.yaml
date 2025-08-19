@@ -1,0 +1,18 @@
+key: Column_abopmsmm
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+    listSpacing:
+      spacingValue:
+        inputValue: 4
+        mostRecentInputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: titleWithSubtitle
+parameterValues: {}
+valueKey: {}

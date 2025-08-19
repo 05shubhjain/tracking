@@ -1,0 +1,13 @@
+key: Text_b1otkl1d
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: ao47sfjd
+    selectable: false
+    textValue:
+      inputValue: "Estimated: 5:45 PM"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

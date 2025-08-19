@@ -1,0 +1,6 @@
+name: Dashboard
+params: {}
+node:
+  key: Scaffold_j357xupf
+pageRouteSettings:
+  onlyAuthenticated: true

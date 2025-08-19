@@ -1,0 +1,42 @@
+key: Text_4ztaqwcz
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 6kobluby
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: Test title
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: title
+              key: 577hh4
+        nodeKeyRef:
+          key: Container_fdejkm03
+      mostRecentInputValue: ""
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    fontWeightValue:
+      inputValue: w600
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    bottomValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: title
+parameterValues: {}
+valueKey: {}

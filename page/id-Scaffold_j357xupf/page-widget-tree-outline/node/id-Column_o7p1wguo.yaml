@@ -1,0 +1,15 @@
+key: Column_o7p1wguo
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    scrollable: false
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

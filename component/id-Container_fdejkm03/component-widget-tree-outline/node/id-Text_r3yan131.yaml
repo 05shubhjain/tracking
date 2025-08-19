@@ -1,0 +1,29 @@
+key: Text_r3yan131
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    translationIdentifier:
+      key: d3n4xbcd
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: Test subtitle
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: subtitle
+              key: 5i4eev
+        nodeKeyRef:
+          key: Container_fdejkm03
+      mostRecentInputValue: ""
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: subTitle
+parameterValues: {}
+valueKey: {}

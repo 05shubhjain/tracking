@@ -1,0 +1,13 @@
+key: Text_g8lyqklf
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: uehqdvv9
+    selectable: false
+    textValue:
+      inputValue: "520"
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY

@@ -1,0 +1,7 @@
+key: Column_j6hep2tt
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_center
+    minSizeValue:
+      inputValue: false

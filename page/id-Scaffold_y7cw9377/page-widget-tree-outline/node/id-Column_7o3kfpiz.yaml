@@ -1,0 +1,20 @@
+key: Column_7o3kfpiz
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_around
+    crossAxisAlignment: cross_axis_start
+    listSpacing:
+      spacingValue:
+        inputValue: 0
+    minSizeValue:
+      inputValue: false
+  padding:
+    leftValue:
+      inputValue: 24
+    topValue:
+      inputValue: 24
+    rightValue:
+      inputValue: 24
+    bottomValue:
+      inputValue: 24

@@ -1,0 +1,12 @@
+node:
+  key: Container_xvx1n2u0
+  children:
+    - key: Column_zp25ixxl
+      children:
+        - key: Container_yjui4f87
+          children:
+            - key: Column_bdpm5uwp
+              children:
+                - key: Icon_nsu09vsy
+                - key: Text_tipdn6sk
+                - key: Text_06l7fij0

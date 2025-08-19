@@ -1,0 +1,26 @@
+key: Text_54ghryws
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: ypkv73np
+    selectable: false
+    textValue:
+      inputValue: Made to order with fresh ingredients each week.
+      mostRecentInputValue: Made to order with fresh ingredients each week.
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: subHeading
+parameterValues: {}
+valueKey: {}

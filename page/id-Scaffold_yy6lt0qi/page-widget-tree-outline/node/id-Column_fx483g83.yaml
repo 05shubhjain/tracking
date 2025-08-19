@@ -1,0 +1,6 @@
+key: Column_fx483g83
+type: Column
+props:
+  column:
+    primary: true
+  responsiveVisibility: {}

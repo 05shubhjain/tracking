@@ -1,0 +1,13 @@
+key: Scaffold_y7cw9377
+type: Scaffold
+props:
+  scaffold:
+    safeArea: true
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+name: order_detail
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/6nmJ0ipxvCgi0IcZvSqC

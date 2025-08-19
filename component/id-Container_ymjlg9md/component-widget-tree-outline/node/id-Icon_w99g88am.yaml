@@ -1,0 +1,54 @@
+key: Icon_w99g88am
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 60434
+        family: MaterialIcons
+        matchTextDirection: false
+        name: remove_sharp
+  alignment:
+    xValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: parameter1
+                      key: 7fwssp
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: parameter2
+                      key: o0wzzg
+          condition:
+            relation: EQUAL_TO
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

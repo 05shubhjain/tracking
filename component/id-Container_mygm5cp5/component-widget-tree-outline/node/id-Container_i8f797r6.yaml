@@ -1,0 +1,18 @@
+key: Container_i8f797r6
+type: Container
+props:
+  alignment: {}
+  expanded: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  widgetClassNodeKeyRef:
+    key: Container_6zi23bg9
+dynamicComponentKey:
+  uniqueKey: {}
+valueKey: {}
+componentClassKeyRef:
+  key: Container_6zi23bg9

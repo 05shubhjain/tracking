@@ -1,0 +1,6 @@
+key: Column_ujc0pult
+type: Column
+props:
+  column:
+    primary: true
+  responsiveVisibility: {}

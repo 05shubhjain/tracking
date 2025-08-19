@@ -1,0 +1,15 @@
+key: Icon_z15hjx30
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: INFO
+    iconDataValue:
+      inputValue:
+        codePoint: 58278
+        family: MaterialIcons
+        matchTextDirection: false
+        name: local_shipping

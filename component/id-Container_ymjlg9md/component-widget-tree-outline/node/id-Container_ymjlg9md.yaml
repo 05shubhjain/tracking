@@ -1,0 +1,12 @@
+key: Container_ymjlg9md
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: accordion
+isDummyRoot: true

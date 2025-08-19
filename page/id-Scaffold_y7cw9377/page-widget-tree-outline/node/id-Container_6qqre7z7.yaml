@@ -1,0 +1,12 @@
+key: Container_6qqre7z7
+type: Container
+props:
+  container:
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 16
+      colorValue:
+        inputValue:
+          value: "4293128957"

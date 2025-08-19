@@ -1,0 +1,15 @@
+show: true
+showSelectedLabels: true
+showUnselectedLabels: true
+backgroundColor:
+  themeColor: PRIMARY_BACKGROUND
+unselectedIconColor:
+  themeColor: SECONDARY_TEXT
+navBarType: FLUTTER_NAV_BAR
+googleNavBarSettings: {}
+floatingNavBarSettings:
+  elevation: 0
+responsiveVisibility: {}
+pageKeyOrder:
+  - Scaffold_j357xupf
+  - Scaffold_zo43eass

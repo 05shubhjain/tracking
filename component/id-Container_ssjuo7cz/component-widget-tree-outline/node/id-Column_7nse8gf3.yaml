@@ -1,0 +1,49 @@
+key: Column_7nse8gf3
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: rn3mc6en
+      action:
+        key: v0ourt1t
+        hapticFeedback:
+          type: FF_HAPTIC_FEEDBACK_LIGHT
+      followUpAction:
+        key: 0sr26605
+        action:
+          navigate:
+            allowBack: true
+            passedParameters:
+              parameterPasses:
+                g56mhg:
+                  paramIdentifier:
+                    name: mealRef
+                    key: g56mhg
+                  variable:
+                    source: WIDGET_CLASS_PARAMETER
+                    baseVariable:
+                      widgetClass:
+                        paramIdentifier:
+                          name: mealRef
+                          key: 4as1dk
+                    nodeKeyRef:
+                      key: Container_ssjuo7cz
+              widgetClassNodeKeyRef:
+                key: Scaffold_yy6lt0qi
+            isNavigateBack: false
+            pageNodeKeyRef:
+              key: Scaffold_yy6lt0qi
+          key: vh0pcb2q
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

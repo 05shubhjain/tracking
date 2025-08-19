@@ -1,0 +1,10 @@
+key: Text_tauhkh7e
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: k8i089kc
+    selectable: false
+    textValue:
+      inputValue: Grilled Salmon Bowl

@@ -1,0 +1,15 @@
+key: Icon_9amzsyb2
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 58136
+        family: MaterialIcons
+        matchTextDirection: false
+        name: home

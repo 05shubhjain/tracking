@@ -1,0 +1,18 @@
+node:
+  key: Scaffold_tcprpejf
+  body:
+    key: Column_8rw6uq4r
+    children:
+      - key: Container_or1jni5i
+      - key: Text_lxfxterv
+      - key: Column_6hvxgsyv
+        children:
+          - key: Column_lmmigw19
+            children:
+              - key: Text_e5cmlp3a
+              - key: TextField_344297mp
+      - key: Container_3990o4yi
+      - key: Button_8ym65qzj
+      - key: Container_1nf0d1sf
+      - key: Button_hsvc9ygj
+      - key: TextField_mkae7iu7

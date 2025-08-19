@@ -1,0 +1,54 @@
+key: Container_vh6bmd7g
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 150
+          mostRecentInputValue: 150
+      height:
+        pixelsValue:
+          inputValue: 150
+          mostRecentInputValue: 150
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+        topRightValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+        bottomLeftValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+        bottomRightValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+        allValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+        pathValue:
+          inputValue: https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/keywjn2qqtc8/Plagte.png
+          mostRecentInputValue: https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/keywjn2qqtc8/Plagte.png
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

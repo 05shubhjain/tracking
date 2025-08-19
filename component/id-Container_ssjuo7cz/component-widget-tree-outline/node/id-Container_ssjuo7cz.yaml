@@ -1,0 +1,23 @@
+key: Container_ssjuo7cz
+type: Container
+props:
+  container:
+    dimensions: {}
+    boxDecoration:
+      boxShadow: {}
+      image: {}
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+    maxDimensions: {}
+    minDimensions: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: mealCard
+parameterValues: {}
+isDummyRoot: true

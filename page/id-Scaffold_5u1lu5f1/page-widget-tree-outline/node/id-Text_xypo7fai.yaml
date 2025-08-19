@@ -1,0 +1,12 @@
+key: Text_xypo7fai
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: sqj2vesd
+    selectable: false
+    textValue:
+      inputValue: "Today, 6:30 PM"
+    fontWeightValue:
+      inputValue: w600

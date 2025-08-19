@@ -1,0 +1,69 @@
+key: Text_792oyc3l
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: 074jk3sa
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          stringInterpolation: {}
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                defaultValue:
+                  serializedValue: "0"
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: mealRef
+                      key: g56mhg
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: meal_calories
+                nodeKeyRef:
+                  key: Scaffold_yy6lt0qi
+            - inputValue:
+                serializedValue: " calories"
+      mostRecentInputValue: "You'll recieve updates on your meals, any meal changes and other notifications."
+    heightValue:
+      inputValue: 1.5
+      mostRecentInputValue: 1.5
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: mealRef
+                      key: g56mhg
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: meal_calories
+                nodeKeyRef:
+                  key: Scaffold_yy6lt0qi
+            - {}
+          condition:
+            relation: EXISTS_AND_NON_EMPTY
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

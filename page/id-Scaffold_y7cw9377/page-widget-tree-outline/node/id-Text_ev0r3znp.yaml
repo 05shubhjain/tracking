@@ -1,0 +1,13 @@
+key: Text_ev0r3znp
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: 6wycxwqe
+    selectable: false
+    textValue:
+      inputValue: Avocado Toast
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

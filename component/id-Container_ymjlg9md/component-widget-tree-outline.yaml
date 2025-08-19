@@ -1,0 +1,17 @@
+node:
+  key: Container_ymjlg9md
+  children:
+    - key: Container_w1by6hnr
+      children:
+        - key: Column_amcctafh
+          children:
+            - key: Row_1h9purvk
+              children:
+                - key: Container_xylj3hd1
+                  children:
+                    - key: Stack_rabbzg7h
+                      children:
+                        - key: Icon_r4uec0qo
+                        - key: Icon_w99g88am
+                - key: Text_6sodwvhc
+            - key: Text_bustmoaj

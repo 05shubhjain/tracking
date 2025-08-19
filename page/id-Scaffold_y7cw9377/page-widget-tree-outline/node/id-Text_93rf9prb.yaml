@@ -1,0 +1,22 @@
+key: Text_93rf9prb
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: a59rpa9c
+    selectable: false
+    textValue:
+      inputValue: Gluten-Free
+    colorValue:
+      inputValue:
+        value: "4279592384"
+  padding:
+    leftValue:
+      inputValue: 4
+    topValue:
+      inputValue: 8
+    rightValue:
+      inputValue: 4
+    bottomValue:
+      inputValue: 8

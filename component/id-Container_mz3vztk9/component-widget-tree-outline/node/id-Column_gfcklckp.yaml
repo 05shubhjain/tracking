@@ -1,0 +1,79 @@
+key: Column_gfcklckp
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: true
+      mostRecentInputValue: true
+  emptyListWidget:
+    show: true
+    displayInFlutterFlow: false
+    componentDimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+    componentParameters:
+      parameterPasses:
+        ds3a0k:
+          paramIdentifier:
+            name: icon
+            key: ds3a0k
+          widgetProperty:
+            icon:
+              sizeValue:
+                inputValue: 64
+                mostRecentInputValue: 64
+              colorValue:
+                inputValue:
+                  themeColor: SECONDARY_TEXT
+                mostRecentInputValue:
+                  themeColor: SECONDARY_TEXT
+              iconDataValue:
+                inputValue:
+                  codePoint: 983915
+                  family: MaterialIcons
+                  matchTextDirection: false
+                  name: question_mark_rounded
+        tzzyaf:
+          paramIdentifier:
+            name: title
+            key: tzzyaf
+          inputValue:
+            serializedValue: No FAQs
+        8gqdjk:
+          paramIdentifier:
+            name: description
+            key: 8gqdjk
+          inputValue:
+            serializedValue: No frquency asked questions have been created.
+      widgetClassNodeKeyRef:
+        key: Container_xvx1n2u0
+    componentClassNodeKeyRef:
+      key: Container_xvx1n2u0
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: support_center
+          key: cfkvv92a
+  firestore:
+    collectionIdentifier:
+      name: support_center
+      key: cfkvv92a
+    hideOnEmpty: false
+  requestManagerSettings: {}
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,41 @@
+key: Column_1rywnmkw
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: mealRef
+                      key: g56mhg
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: meal_ingredients
+                nodeKeyRef:
+                  key: Scaffold_yy6lt0qi
+            - {}
+          condition:
+            relation: EXISTS_AND_NON_EMPTY
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

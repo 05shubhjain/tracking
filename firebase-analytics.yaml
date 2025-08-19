@@ -1,0 +1,6 @@
+enabled: true
+automaticEventSettings:
+  onPageLoad: true
+  onActionsStart: true
+  onIndividualActions: true
+  onAuth: true

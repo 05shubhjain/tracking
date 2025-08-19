@@ -1,0 +1,6 @@
+name: SupportCenter
+node:
+  key: Scaffold_phj2qk94
+pageRouteSettings:
+  routePath: support-center
+  onlyAuthenticated: true

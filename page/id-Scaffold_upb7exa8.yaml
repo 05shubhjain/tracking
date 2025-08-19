@@ -1,0 +1,5 @@
+name: ForgotPassword
+node:
+  key: Scaffold_upb7exa8
+pageRouteSettings:
+  routePath: forgot-password

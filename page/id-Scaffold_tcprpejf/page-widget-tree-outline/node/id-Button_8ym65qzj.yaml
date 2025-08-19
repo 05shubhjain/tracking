@@ -1,0 +1,95 @@
+key: Button_8ym65qzj
+type: Button
+props:
+  button:
+    text:
+      themeStyle: BODY_MEDIUM
+      translationIdentifier:
+        key: hr2y9oa3
+      textValue:
+        inputValue: Reset Password
+        mostRecentInputValue: Reset Password
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      fontWeightValue:
+        inputValue: w600
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      topLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      topRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      allValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 50
+          mostRecentInputValue: 50
+    elevationValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+      mostRecentInputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    disabledColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    disabledTextColorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 7u6sdiu4
+      action:
+        auth:
+          type: RESET_PASSWORD
+          emailFieldKeyRef:
+            key: TextField_mkae7iu7
+        key: ugpolzw5
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

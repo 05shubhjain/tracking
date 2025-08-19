@@ -1,0 +1,81 @@
+key: TextField_iwkm3y6r
+type: TextField
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+      fontSizeValue:
+        inputValue: 16
+        mostRecentInputValue: 16
+      fontWeightValue:
+        inputValue: w500
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        topRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        allValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+      hintStyle:
+        themeStyle: BODY_SMALL
+      hintText:
+        translationIdentifier:
+          key: 224uodu6
+        textValue:
+          inputValue: Type something...
+          mostRecentInputValue: Type something...
+      filledValue:
+        inputValue: true
+        mostRecentInputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+    keyboardType: MULTILINE
+    capitalization: SENTENCES
+    submitType: SUBMIT_TYPE_NONE
+    maxLinesValue:
+      inputValue: 7
+      mostRecentInputValue: 7
+    autofocusValue:
+      inputValue: true
+      mostRecentInputValue: true
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 22
+          mostRecentInputValue: 22
+        colorValue:
+          inputValue:
+            value: "4285887861"
+          mostRecentInputValue:
+            value: "4285887861"
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: feedback
+parameterValues: {}
+valueKey: {}

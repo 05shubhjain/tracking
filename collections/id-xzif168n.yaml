@@ -1,0 +1,64 @@
+identifier:
+  name: company_information
+  key: xzif168n
+fields:
+  name:
+    identifier:
+      name: name
+    dataType:
+      scalarType: String
+  logo:
+    identifier:
+      name: logo
+    dataType:
+      scalarType: ImagePath
+  email:
+    identifier:
+      name: email
+    dataType:
+      scalarType: String
+  phone:
+    identifier:
+      name: phone
+    dataType:
+      scalarType: String
+  address:
+    identifier:
+      name: address
+    dataType:
+      scalarType: String
+  appleStoreURL:
+    identifier:
+      name: appleStoreURL
+    dataType:
+      scalarType: String
+  playStoreURL:
+    identifier:
+      name: playStoreURL
+    dataType:
+      scalarType: String
+  coverImage:
+    identifier:
+      name: coverImage
+    dataType:
+      scalarType: ImagePath
+  company_bio:
+    identifier:
+      name: company_bio
+    dataType:
+      scalarType: String
+  chef_info:
+    identifier:
+      name: chef_info
+    dataType:
+      listType:
+        scalarType: DataStruct
+      subType:
+        dataStructIdentifier:
+          name: chefs
+          key: ka9vs
+  termsURL:
+    identifier:
+      name: termsURL
+    dataType:
+      scalarType: String

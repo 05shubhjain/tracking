@@ -1,0 +1,97 @@
+key: TextField_g6vq1c59
+type: TextField
+props:
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+      fontSizeValue:
+        inputValue: 16
+        mostRecentInputValue: 16
+      heightValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      fontWeightValue:
+        inputValue: w500
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        topRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        allValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+      labelText: {}
+      hintText: {}
+      borderColorValue:
+        inputValue:
+          themeColor: ALTERNATE
+        mostRecentInputValue:
+          themeColor: ALTERNATE
+      filledValue:
+        inputValue: true
+        mostRecentInputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+        mostRecentInputValue:
+          themeColor: ERROR
+      focusBorderColorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+    keyboardType: EMAIL_ADDRESS
+    autocomplete: false
+    autoFillHint: EMAIL
+    submitType: NEXT
+    maxLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    minLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    autofocusValue:
+      inputValue: false
+      mostRecentInputValue: false
+    cursorColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 22
+          mostRecentInputValue: 22
+        colorValue:
+          inputValue:
+            value: "4285887861"
+          mostRecentInputValue:
+            value: "4285887861"
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: emailAddress
+parameterValues: {}
+valueKey: {}

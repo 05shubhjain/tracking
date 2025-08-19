@@ -1,0 +1,23 @@
+key: Text_p16p5sp0
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 46uk37z7
+    selectable: false
+    textValue:
+      inputValue: Contact Us
+      mostRecentInputValue: Contact Us
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

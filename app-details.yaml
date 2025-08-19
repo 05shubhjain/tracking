@@ -1,0 +1,17 @@
+name: delivery
+authPageInfo:
+  homePageNodeKey: Scaffold_j357xupf
+  signInPageNodeKey: Scaffold_dvxzhz9e
+appSettings:
+  advancedSettings:
+    canvasKitSettings: {}
+routingSettings:
+  enableRouting: true
+  pagesAreSubroutesOfRoot: true
+initialPageKeyRef:
+  key: Scaffold_gadvuzqd
+allAppNames:
+  appNames:
+    PROD:
+      packageName: com.mealplanner.app
+      displayName: MealPlanner

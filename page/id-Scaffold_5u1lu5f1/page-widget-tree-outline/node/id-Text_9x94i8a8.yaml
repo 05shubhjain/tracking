@@ -1,0 +1,13 @@
+key: Text_9x94i8a8
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: qv6h4mm9
+    selectable: false
+    textValue:
+      inputValue: Delivered
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

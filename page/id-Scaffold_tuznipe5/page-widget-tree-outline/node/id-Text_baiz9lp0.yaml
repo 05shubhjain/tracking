@@ -1,0 +1,20 @@
+key: Text_baiz9lp0
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 55ye3cf8
+    selectable: false
+    textValue:
+      inputValue: Password
+      mostRecentInputValue: Password
+    fontWeightValue:
+      inputValue: w600
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+parameterValues: {}

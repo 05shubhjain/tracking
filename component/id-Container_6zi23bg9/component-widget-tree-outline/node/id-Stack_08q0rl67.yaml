@@ -1,0 +1,35 @@
+key: Stack_08q0rl67
+type: Stack
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    rightValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  stack:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+      height:
+        pixelsValue:
+          inputValue: 32
+          mostRecentInputValue: 32
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

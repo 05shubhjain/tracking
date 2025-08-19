@@ -1,0 +1,10 @@
+key: Column_zi6p9uwl
+type: Column
+props:
+  column:
+    listSpacing:
+      spacingValue:
+        inputValue: 16
+    minSizeValue:
+      inputValue: false
+  padding: {}

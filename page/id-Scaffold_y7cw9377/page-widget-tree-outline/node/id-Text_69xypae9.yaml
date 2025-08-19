@@ -1,0 +1,13 @@
+key: Text_69xypae9
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    translationIdentifier:
+      key: 0bb54epp
+    selectable: false
+    textValue:
+      inputValue: Nutritional Information
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

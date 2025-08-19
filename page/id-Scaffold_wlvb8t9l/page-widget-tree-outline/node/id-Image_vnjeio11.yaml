@@ -1,0 +1,68 @@
+key: Image_vnjeio11
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_CONTAIN
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 250
+          mostRecentInputValue: 250
+    cacheFadeDuration: 500
+    pathValue:
+      inputValue: https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/jevo7qiwpcte/Customers_Enjoy_Food.png
+      mostRecentInputValue: https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/jevo7qiwpcte/Customers_Enjoy_Food.png
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    rightValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        scale:
+          beginDx:
+            inputValue:
+              serializedValue: "0.9"
+          endDx:
+            inputValue:
+              serializedValue: "1.0"
+          beginDy:
+            inputValue:
+              serializedValue: "0.9"
+          endDy:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0.0"
+          end:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+    applyInitialState: true
+valueKey: {}

@@ -1,0 +1,19 @@
+key: Text_6m6edpll
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: wvva3ke3
+    selectable: false
+    textValue:
+      inputValue: Avocado
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

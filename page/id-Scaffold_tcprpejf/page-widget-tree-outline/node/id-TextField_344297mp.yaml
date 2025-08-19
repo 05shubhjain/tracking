@@ -1,0 +1,149 @@
+key: TextField_344297mp
+type: TextField
+props:
+  padding:
+    topValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+      fontSizeValue:
+        inputValue: 16
+        mostRecentInputValue: 16
+      heightValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      fontWeightValue:
+        inputValue: w500
+    inputDecoration:
+      inputBorderType: outline
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        topRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        allValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+      labelText:
+        translationIdentifier:
+          key: d3n4xbcd
+      hintText:
+        translationIdentifier:
+          key: ect2f8wa
+      borderColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+      filledValue:
+        inputValue: true
+        mostRecentInputValue: true
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderWidthValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      errorBorderColorValue:
+        inputValue:
+          themeColor: ERROR
+        mostRecentInputValue:
+          themeColor: ERROR
+      focusBorderColorValue:
+        inputValue:
+          themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+    keyboardType: TEXT
+    initialText:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: DISPLAY_NAME
+    width: {}
+    autocomplete: false
+    autoFillHint: NAME
+    capitalization: WORDS
+    submitType: NEXT
+    maxLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    minLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    autofocusValue:
+      inputValue: false
+      mostRecentInputValue: false
+    cursorColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    leadingIconValue:
+      inputValue: {}
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 22
+          mostRecentInputValue: 22
+        colorValue:
+          inputValue:
+            value: "4285887861"
+          mostRecentInputValue:
+            value: "4285887861"
+  responsiveVisibility: {}
+  themeOverrides:
+    - tagPath:
+        - 11
+    - tagPath:
+        - 17
+        - 2
+        - 21
+    - tagPath:
+        - 17
+        - 14
+        - 26
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: fullName
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: u0zxmwhz
+      action:
+        localStateUpdate:
+          updates:
+            - fieldIdentifier:
+                name: unsavedChanges
+                key: h8tcn
+              setValue:
+                inputValue:
+                  serializedValue: "true"
+          updateType: WIDGET
+          stateVariableType: WIDGET_CLASS_STATE
+        key: tmca2zdg
+    trigger:
+      triggerType: ON_TEXTFIELD_CHANGE
+themeWidgetInfo:
+  identifier:
+    name: textfield_Default
+    key: wnoglc
+  widgetHash: 208122100
+valueKey: {}

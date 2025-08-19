@@ -1,0 +1,10 @@
+key: Text_pme9aho8
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: 11legh38
+    selectable: false
+    textValue:
+      inputValue: Carbs

@@ -1,0 +1,21 @@
+key: Divider_o27z73mr
+type: Divider
+props:
+  divider:
+    heightValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    thicknessValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: ACCENT_4
+      mostRecentInputValue:
+        themeColor: ACCENT_4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

@@ -1,0 +1,70 @@
+key: Scaffold_j357xupf
+type: Scaffold
+props:
+  scaffold:
+    safeArea: true
+    navBarItem:
+      navIcon:
+        sizeValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        colorValue:
+          inputValue:
+            value: "4288585374"
+          mostRecentInputValue:
+            value: "4288585374"
+        iconDataValue:
+          inputValue:
+            codePoint: 60457
+            family: MaterialIcons
+            matchTextDirection: false
+            name: restaurant_sharp
+      navActiveIcon:
+        sizeValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY
+          mostRecentInputValue:
+            themeColor: PRIMARY
+        iconDataValue:
+          inputValue:
+            codePoint: 58136
+            family: MaterialIcons
+            matchTextDirection: false
+            name: home
+      show: true
+      differentActiveIcon: false
+      label:
+        translationIdentifier:
+          key: 8hmmat3d
+        textValue:
+          inputValue: Meals
+          mostRecentInputValue: Meals
+      alwaysShowNavBar: false
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: PRIMARY_BACKGROUND
+  queryLoadingWidget:
+    loadingWidget:
+      defaultLoadingIndicator: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    animatedOpacity: {}
+name: Dashboard
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: rx8g1t6y
+      action:
+        key: r4794swd
+        hapticFeedback:
+          type: FF_HAPTIC_FEEDBACK_MEDIUM
+    trigger:
+      triggerType: ON_INIT_STATE

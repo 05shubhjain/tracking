@@ -1,0 +1,19 @@
+key: Text_o1x33tmi
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    isCustomFont: true
+    translationIdentifier:
+      key: d9kxnl4m
+    selectable: false
+    textValue:
+      inputValue: Create an account
+      mostRecentInputValue: Create an account
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+parameterValues: {}

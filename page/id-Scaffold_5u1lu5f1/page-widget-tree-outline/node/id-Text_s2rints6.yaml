@@ -1,0 +1,13 @@
+key: Text_s2rints6
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: oxzxy22y
+    selectable: false
+    textValue:
+      inputValue: Order Details
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

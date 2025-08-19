@@ -1,0 +1,63 @@
+key: Text_rpitrtk6
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: tmze9jvy
+    selectable: false
+    textValue:
+      inputValue: "Gourmet Quality,\nHassle-Free"
+      mostRecentInputValue: "Gourmet Quality,\nHassle-Free"
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        scale:
+          beginDx:
+            inputValue:
+              serializedValue: "0.9"
+          endDx:
+            inputValue:
+              serializedValue: "1.0"
+          beginDy:
+            inputValue:
+              serializedValue: "0.9"
+          endDy:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0.0"
+          end:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+    applyInitialState: true
+valueKey: {}

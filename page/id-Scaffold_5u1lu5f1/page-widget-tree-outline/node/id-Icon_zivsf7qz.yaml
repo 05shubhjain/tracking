@@ -1,0 +1,15 @@
+key: Icon_zivsf7qz
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: INFO
+    iconDataValue:
+      inputValue:
+        codePoint: 58674
+        family: MaterialIcons
+        matchTextDirection: false
+        name: restaurant

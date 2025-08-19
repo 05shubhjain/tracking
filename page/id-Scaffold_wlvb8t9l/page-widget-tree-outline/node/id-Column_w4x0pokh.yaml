@@ -1,0 +1,14 @@
+key: Column_w4x0pokh
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_center
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,22 @@
+key: Text_jyqhq3u3
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: eqsljcfa
+    selectable: false
+    textValue:
+      inputValue: Disliked Ingredients
+      mostRecentInputValue: Disliked Ingredients
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

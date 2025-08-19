@@ -1,0 +1,25 @@
+key: Text_q735g8y4
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    isCustomFont: true
+    translationIdentifier:
+      key: 8qqy010q
+    selectable: false
+    textValue:
+      inputValue: Eating Preferences
+      mostRecentInputValue: Eating Preferences
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: header
+parameterValues: {}
+valueKey: {}

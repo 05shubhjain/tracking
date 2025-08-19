@@ -1,0 +1,12 @@
+key: Text_j4f1xwy4
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 219jyjdg
+    selectable: false
+    textValue:
+      inputValue: Delivery Address
+    fontWeightValue:
+      inputValue: w600

@@ -1,0 +1,20 @@
+key: Column_9mc7ub12
+type: Column
+props:
+  column:
+    primary: true
+triggerActions:
+  - rootAction:
+      key: l6l15qxf
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_tuznipe5
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_tuznipe5
+        key: slnpw8fs
+    trigger:
+      triggerType: ON_TAP

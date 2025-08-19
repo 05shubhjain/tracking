@@ -1,0 +1,8 @@
+key: Row_nmvb8xyu
+type: Row
+props:
+  row:
+    listSpacing:
+      spacingValue:
+        inputValue: 8
+  padding: {}

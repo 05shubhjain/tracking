@@ -1,0 +1,12 @@
+key: Text_19skpii5
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: cimt106v
+    selectable: false
+    textValue:
+      inputValue: Out for Delivery
+    fontWeightValue:
+      inputValue: w600

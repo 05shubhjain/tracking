@@ -1,0 +1,13 @@
+key: Text_mt99dvr3
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: notz7yuo
+    selectable: false
+    textValue:
+      inputValue: Delivery Information
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

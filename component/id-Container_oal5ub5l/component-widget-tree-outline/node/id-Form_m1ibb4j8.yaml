@@ -1,0 +1,23 @@
+key: Form_m1ibb4j8
+type: Form
+props:
+  responsiveVisibility: {}
+  form:
+    validations:
+      - isRequired: true
+        text:
+          minimumCharacters: 12
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: vdzn0jtn
+            textValue:
+              inputValue: Feedback is required.
+              mostRecentInputValue: Feedback is required.
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: zz097kd4
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_iwkm3y6r

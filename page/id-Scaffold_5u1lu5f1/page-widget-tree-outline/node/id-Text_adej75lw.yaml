@@ -1,0 +1,13 @@
+key: Text_adej75lw
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: tugoaoip
+    selectable: false
+    textValue:
+      inputValue: Your meal will arrive at your doorstep
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

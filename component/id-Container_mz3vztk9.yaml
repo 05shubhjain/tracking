@@ -1,0 +1,14 @@
+name: accordionSection
+node:
+  key: Container_mz3vztk9
+classModel:
+  stateFields:
+    - parameter:
+        identifier:
+          name: accordionSectionExpanded
+          key: td6xw
+        dataType:
+          scalarType: Integer
+          nonNullable: true
+      serializedDefaultValue:
+        - "-1"

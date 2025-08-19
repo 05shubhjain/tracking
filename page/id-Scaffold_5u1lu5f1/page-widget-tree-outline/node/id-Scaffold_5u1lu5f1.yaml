@@ -1,0 +1,13 @@
+key: Scaffold_5u1lu5f1
+type: Scaffold
+props:
+  scaffold:
+    safeArea: true
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+name: tracking
+aiGeneratedNodeInfo:
+  isAiGenerated: true
+  requestPath: ai_gen_requests/8WkkTyNhGslKtdNy2vMi

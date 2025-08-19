@@ -1,0 +1,24 @@
+key: Text_tzh65xov
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 4clpr9je
+    selectable: false
+    textValue:
+      inputValue: Email
+      mostRecentInputValue: Email
+    textAlignValue:
+      inputValue: ALIGN_START
+  padding:
+    topValue:
+      inputValue: 15
+      mostRecentInputValue: 15
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

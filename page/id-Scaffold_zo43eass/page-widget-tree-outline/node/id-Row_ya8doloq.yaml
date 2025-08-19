@@ -1,0 +1,35 @@
+key: Row_ya8doloq
+type: Row
+props:
+  row:
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 19jrtl4l
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_tcprpejf
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_tcprpejf
+        key: 2vf0jylc
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

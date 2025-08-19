@@ -1,0 +1,12 @@
+key: Column_86ro07c6
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    listSpacing:
+      spacingValue:
+        inputValue: 8
+    minSizeValue:
+      inputValue: false
+  expanded:
+    expandedType: EXPANDED

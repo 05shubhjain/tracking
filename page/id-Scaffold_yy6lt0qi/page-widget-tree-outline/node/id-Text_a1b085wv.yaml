@@ -1,0 +1,21 @@
+key: Text_a1b085wv
+type: Text
+props:
+  text:
+    themeStyle: LABEL_MEDIUM
+    translationIdentifier:
+      key: p7j8y38u
+    selectable: false
+    textValue:
+      inputValue: Ingredients
+      mostRecentInputValue: Ingredients
+    heightValue:
+      inputValue: 1.5
+      mostRecentInputValue: 1.5
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

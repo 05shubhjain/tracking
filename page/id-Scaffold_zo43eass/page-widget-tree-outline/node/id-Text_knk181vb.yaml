@@ -1,0 +1,23 @@
+key: Text_knk181vb
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: gv8a91o1
+    selectable: false
+    textValue:
+      inputValue: Log out
+      mostRecentInputValue: Log out
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

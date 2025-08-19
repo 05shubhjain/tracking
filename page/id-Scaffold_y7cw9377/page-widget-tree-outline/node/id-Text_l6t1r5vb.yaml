@@ -1,0 +1,14 @@
+key: Text_l6t1r5vb
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: t2phswbc
+    selectable: false
+    textValue:
+      inputValue: Prepared by Chef Maria Rodriguez
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+  padding: {}

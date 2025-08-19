@@ -1,0 +1,12 @@
+key: Container_awa62d1f
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: mealBottomSheet
+isDummyRoot: true

@@ -1,0 +1,13 @@
+key: Text_p5ijbd9e
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: v2s5tmch
+    selectable: false
+    textValue:
+      inputValue: 18g
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY

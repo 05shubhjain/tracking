@@ -1,0 +1,32 @@
+identifier:
+  name: onboarding_options
+  key: oe23ak9r
+fields:
+  allergen_options:
+    identifier:
+      name: allergen_options
+    dataType:
+      listType:
+        scalarType: String
+  diet_options:
+    identifier:
+      name: diet_options
+    dataType:
+      listType:
+        scalarType: DataStruct
+      subType:
+        dataStructIdentifier:
+          name: diet_options
+          key: m3gmj
+  ingredient_options:
+    identifier:
+      name: ingredient_options
+    dataType:
+      listType:
+        scalarType: String
+  meal_options:
+    identifier:
+      name: meal_options
+    dataType:
+      listType:
+        scalarType: String

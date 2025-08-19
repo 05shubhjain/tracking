@@ -1,0 +1,14 @@
+identifier:
+  name: returnProfileGreeting
+  key: uxp0x
+arguments:
+  - identifier:
+      name: timestamp
+      key: ry3gn8
+    dataType:
+      scalarType: DateTime
+      nonNullable: true
+returnParameter:
+  dataType:
+    scalarType: String
+    nonNullable: true

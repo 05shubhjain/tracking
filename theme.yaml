@@ -1,0 +1,339 @@
+loadingIndicatorStyle:
+  type: CIRCULAR
+  color:
+    themeColor: PRIMARY
+  diameter: 25
+customFonts:
+  - fontFamily: SF Pro
+    fontFileData:
+      - fontFilePath: projects/meal-planner-3nia1o/assets/j2r0eizx4n9a/SF-Pro-Text-Bold.otf
+        weight: w700
+        italic: false
+      - fontFilePath: projects/meal-planner-3nia1o/assets/0t57nm6yrfd0/SF-Pro-Text-Light.otf
+        weight: w300
+        italic: false
+      - fontFilePath: projects/meal-planner-3nia1o/assets/va4o8aicen0n/SF-Pro-Text-Medium.otf
+        weight: w500
+        italic: false
+      - fontFilePath: projects/meal-planner-3nia1o/assets/i5w00dgb93q0/SF-Pro-Text-Semibold.otf
+        weight: w600
+        italic: false
+      - fontFilePath: projects/meal-planner-3nia1o/assets/byynfbuaf5zw/SF-Pro-Text-Regular.otf
+        weight: w400
+        italic: false
+defaultTypography:
+  primaryFontFamily: Inter
+  secondaryFontFamily: Inter
+  displaySmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  headlineMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  headlineSmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 22
+      mostRecentInputValue: 22
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  titleMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+    colorValue:
+      inputValue:
+        themeColor: INFO
+      mostRecentInputValue:
+        themeColor: INFO
+    fontWeightValue:
+      inputValue: w600
+  titleSmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: INFO
+      mostRecentInputValue:
+        themeColor: INFO
+    fontWeightValue:
+      inputValue: w600
+  bodyMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 14
+      mostRecentInputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  bodySmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 14
+      mostRecentInputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  displayLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 44
+      mostRecentInputValue: 44
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  displayMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 36
+      mostRecentInputValue: 36
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  headlineLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w400
+  titleLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 22
+      mostRecentInputValue: 22
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  labelLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 14
+      mostRecentInputValue: 14
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  labelMedium:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  labelSmall:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 11
+      mostRecentInputValue: 11
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    fontWeightValue:
+      inputValue: w500
+  bodyLarge:
+    fontFamily: Inter
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+      mostRecentInputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+themeWidgets:
+  - identifier:
+      name: textfield_Default
+      key: wnoglc
+    widget:
+      type: TextField
+      props:
+        textField:
+          textStyle:
+            themeStyle: BODY_MEDIUM
+            fontSizeValue:
+              inputValue: 16
+              mostRecentInputValue: 16
+            heightValue:
+              inputValue: 1
+              mostRecentInputValue: 1
+            fontWeightValue:
+              inputValue: w500
+          inputDecoration:
+            inputBorderType: outline
+            borderRadius:
+              type: FF_BORDER_RADIUS_ALL
+              topLeftValue:
+                inputValue: 8
+                mostRecentInputValue: 8
+              topRightValue:
+                inputValue: 8
+                mostRecentInputValue: 8
+              bottomLeftValue:
+                inputValue: 8
+                mostRecentInputValue: 8
+              bottomRightValue:
+                inputValue: 8
+                mostRecentInputValue: 8
+              allValue:
+                inputValue: 8
+                mostRecentInputValue: 8
+            labelText: {}
+            hintText: {}
+            borderColorValue:
+              inputValue:
+                themeColor: ALTERNATE
+              mostRecentInputValue:
+                themeColor: ALTERNATE
+            filledValue:
+              inputValue: true
+              mostRecentInputValue: true
+            fillColorValue:
+              inputValue:
+                themeColor: SECONDARY_BACKGROUND
+              mostRecentInputValue:
+                themeColor: SECONDARY_BACKGROUND
+            borderWidthValue:
+              inputValue: 1
+              mostRecentInputValue: 1
+            errorBorderColorValue:
+              inputValue:
+                themeColor: ERROR
+              mostRecentInputValue:
+                themeColor: ERROR
+            focusBorderColorValue:
+              inputValue:
+                themeColor: PRIMARY
+              mostRecentInputValue:
+                themeColor: PRIMARY
+          keyboardType: TEXT
+          autocomplete: false
+          autoFillHint: NAME
+          capitalization: WORDS
+          submitType: NEXT
+          maxLinesValue:
+            inputValue: 1
+            mostRecentInputValue: 1
+          minLinesValue:
+            inputValue: 1
+            mostRecentInputValue: 1
+          autofocusValue:
+            inputValue: false
+            mostRecentInputValue: false
+          cursorColorValue:
+            inputValue:
+              themeColor: PRIMARY
+            mostRecentInputValue:
+              themeColor: PRIMARY
+          trailingIconValue:
+            inputValue:
+              sizeValue:
+                inputValue: 22
+                mostRecentInputValue: 22
+              colorValue:
+                inputValue:
+                  value: "4285887861"
+                mostRecentInputValue:
+                  value: "4285887861"
+        responsiveVisibility: {}
+        themeOverrides:
+          - tagPath:
+              - 17
+              - 17
+              - 4
+          - tagPath:
+              - 17
+              - 14
+              - 26
+          - tagPath:
+              - 17
+              - 2
+              - 15
+              - 26
+          - tagPath:
+              - 17
+              - 2
+              - 16
+              - 26
+          - tagPath:
+              - 17
+              - 45
+              - 1
+              - 7
+          - tagPath:
+              - 17
+              - 46
+              - 1
+              - 7
+        opacity:
+          opacityValue:
+            inputValue: 1
+            mostRecentInputValue: 1
+breakPoints:
+  small: 479
+  medium: 767
+  large: 991
+pullToRefresh: {}

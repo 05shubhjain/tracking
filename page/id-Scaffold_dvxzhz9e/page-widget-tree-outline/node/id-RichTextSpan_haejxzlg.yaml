@@ -1,0 +1,15 @@
+key: RichTextSpan_haejxzlg
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: BODY_MEDIUM
+      translationIdentifier:
+        key: 8lsxlbi9
+      underline: true
+      textValue:
+        inputValue: Sign In
+        mostRecentInputValue: Sign In
+      fontWeightValue:
+        inputValue: w600
+parameterValues: {}

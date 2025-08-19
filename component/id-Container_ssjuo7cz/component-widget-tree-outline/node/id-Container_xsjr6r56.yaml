@@ -1,0 +1,225 @@
+key: Container_xsjr6r56
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 48
+          mostRecentInputValue: 48
+      height:
+        pixelsValue:
+          inputValue: 150
+          mostRecentInputValue: 150
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        topRightValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        bottomLeftValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        bottomRightValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        allValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+        pathValue:
+          variable:
+            source: WIDGET_CLASS_PARAMETER
+            defaultValue:
+              serializedValue: https://cdn-uploads.mealime.com/uploads/recipe/thumbnail/225/presentation_62aa6b6f-6a95-4798-9091-09f487ad2dc4.jpg
+            baseVariable:
+              widgetClass:
+                paramIdentifier:
+                  name: mealRef
+                  key: 4as1dk
+            operations:
+              - accessDocumentField:
+                  fieldIdentifier:
+                    name: meal_image
+            nodeKeyRef:
+              key: Container_ssjuo7cz
+      colorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+      borderColorValue:
+        inputValue:
+          themeColor: ALTERNATE
+        mostRecentInputValue:
+          themeColor: ALTERNATE
+      borderWidthValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 5tggfv2r
+      conditionActions:
+        falseAction:
+          key: 8gaac9yt
+          action:
+            key: 75gvcm7i
+            hapticFeedback:
+              type: FF_HAPTIC_FEEDBACK_SELECTION_CLICK
+          followUpAction:
+            key: n0c7g9as
+            action:
+              waitAction:
+                durationMillis: 100
+              key: fqmi6xm6
+            followUpAction:
+              key: b2wzk3fv
+              action:
+                key: 3urju9pw
+                hapticFeedback: {}
+              followUpAction:
+                key: k8vou9cm
+                action:
+                  database:
+                    updateDocument:
+                      write:
+                        updates:
+                          meal_favorites:
+                            fieldIdentifier:
+                              name: meal_favorites
+                            fieldValue:
+                              fieldValue: FIRESTORE_ARRAY_UNION
+                              value:
+                                fieldIdentifier:
+                                  name: meal_favorites
+                                variable:
+                                  source: FIREBASE_AUTH_USER
+                                  baseVariable:
+                                    auth:
+                                      property: USER_REFERENCE
+                      reference:
+                        source: WIDGET_CLASS_PARAMETER
+                        baseVariable:
+                          widgetClass:
+                            paramIdentifier:
+                              name: mealRef
+                              key: 4as1dk
+                        operations:
+                          - accessDocumentField:
+                              documentProperty: REFERENCE
+                        nodeKeyRef:
+                          key: Scaffold_yy6lt0qi
+                  key: 8uv7k8qr
+        trueActions:
+          - condition:
+              variable:
+                source: WIDGET_CLASS_PARAMETER
+                baseVariable:
+                  widgetClass:
+                    paramIdentifier:
+                      name: mealRef
+                      key: 4as1dk
+                operations:
+                  - accessDocumentField:
+                      fieldIdentifier:
+                        name: meal_favorites
+                  - listContains:
+                      element:
+                        source: FIREBASE_AUTH_USER
+                        baseVariable:
+                          auth:
+                            property: USER_REFERENCE
+                nodeKeyRef:
+                  key: Scaffold_yy6lt0qi
+            trueAction:
+              key: rgphv0py
+              action:
+                key: b9rlhes7
+                hapticFeedback:
+                  type: FF_HAPTIC_FEEDBACK_LIGHT
+              followUpAction:
+                key: 4d6t1fjs
+                action:
+                  database:
+                    updateDocument:
+                      write:
+                        updates:
+                          meal_favorites:
+                            fieldIdentifier:
+                              name: meal_favorites
+                            fieldValue:
+                              fieldValue: FIRESTORE_ARRAY_REMOVE
+                              value:
+                                fieldIdentifier:
+                                  name: meal_favorites
+                                variable:
+                                  source: FIREBASE_AUTH_USER
+                                  baseVariable:
+                                    auth:
+                                      property: USER_REFERENCE
+                      reference:
+                        source: WIDGET_CLASS_PARAMETER
+                        baseVariable:
+                          widgetClass:
+                            paramIdentifier:
+                              name: mealRef
+                              key: 4as1dk
+                        operations:
+                          - accessDocumentField:
+                              documentProperty: REFERENCE
+                        nodeKeyRef:
+                          key: Scaffold_yy6lt0qi
+                  key: ni2raz2t
+    trigger:
+      triggerType: ON_DOUBLE_TAP
+  - rootAction:
+      key: dsy5ac0o
+      action:
+        key: fejvnto2
+        hapticFeedback:
+          type: FF_HAPTIC_FEEDBACK_LIGHT
+      followUpAction:
+        key: 62bueapp
+        action:
+          navigate:
+            allowBack: true
+            passedParameters:
+              parameterPasses:
+                g56mhg:
+                  paramIdentifier:
+                    name: mealRef
+                    key: g56mhg
+                  variable:
+                    source: WIDGET_CLASS_PARAMETER
+                    baseVariable:
+                      widgetClass:
+                        paramIdentifier:
+                          name: mealRef
+                          key: 4as1dk
+                    nodeKeyRef:
+                      key: Container_ssjuo7cz
+              widgetClassNodeKeyRef:
+                key: Scaffold_yy6lt0qi
+            isNavigateBack: false
+            pageNodeKeyRef:
+              key: Scaffold_yy6lt0qi
+          key: ke5twrmk
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

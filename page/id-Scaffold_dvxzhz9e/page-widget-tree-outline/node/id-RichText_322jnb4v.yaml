@@ -1,0 +1,16 @@
+key: RichText_322jnb4v
+type: RichText
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+  richText:
+    textStyle:
+      themeStyle: DISPLAY_SMALL
+      fontSizeValue:
+        inputValue: 32
+        mostRecentInputValue: 32
+parameterValues: {}

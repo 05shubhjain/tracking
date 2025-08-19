@@ -1,0 +1,24 @@
+key: Text_37y2w2ye
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: iisv9fgy
+    selectable: false
+    textValue:
+      inputValue: In Progress
+    colorValue:
+      inputValue:
+        value: "4281236786"
+    fontWeightValue:
+      inputValue: w600
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

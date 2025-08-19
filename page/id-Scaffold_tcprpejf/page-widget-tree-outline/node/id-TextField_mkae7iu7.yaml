@@ -1,0 +1,91 @@
+key: TextField_mkae7iu7
+type: TextField
+props:
+  textField:
+    textStyle:
+      themeStyle: BODY_MEDIUM
+      fontSizeValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      heightValue:
+        inputValue: 1
+        mostRecentInputValue: 1
+      fontWeightValue:
+        inputValue: w500
+    inputDecoration:
+      inputBorderType: none
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        topRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        allValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+      labelText: {}
+      hintText: {}
+      filledValue:
+        inputValue: false
+        mostRecentInputValue: false
+      fillColorValue:
+        inputValue:
+          themeColor: SECONDARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: SECONDARY_BACKGROUND
+      denseValue:
+        inputValue: true
+        mostRecentInputValue: true
+    keyboardType: TEXT
+    setStateOnChanged: false
+    initialText:
+      textValue:
+        variable:
+          source: FIREBASE_AUTH_USER
+          baseVariable:
+            auth:
+              property: EMAIL
+    autocomplete: false
+    capitalization: WORDS
+    submitType: SUBMIT_TYPE_NONE
+    maxLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    minLinesValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    debounceTimeValue:
+      inputValue: 500
+      mostRecentInputValue: 500
+    readOnlyValue:
+      inputValue: true
+      mostRecentInputValue: true
+    autofocusValue:
+      inputValue: false
+      mostRecentInputValue: false
+    trailingIconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 22
+          mostRecentInputValue: 22
+        colorValue:
+          inputValue:
+            value: "4285887861"
+          mostRecentInputValue:
+            value: "4285887861"
+  responsiveVisibility: {}
+name: emailAddress
+parameterValues: {}

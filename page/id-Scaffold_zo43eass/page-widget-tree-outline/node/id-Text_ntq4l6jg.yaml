@@ -1,0 +1,18 @@
+key: Text_ntq4l6jg
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    translationIdentifier:
+      key: c3kv9o0d
+    selectable: false
+    textValue:
+      inputValue: Thank you for supporting us!
+      mostRecentInputValue: Thank you for supporting us!
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

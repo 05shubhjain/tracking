@@ -1,0 +1,14 @@
+identifier:
+  name: diet_options
+  key: m3gmj
+fields:
+  - identifier:
+      name: diet_name
+      key: hq3ab
+    dataType:
+      scalarType: String
+  - identifier:
+      name: diet_tagline
+      key: e7r8z
+    dataType:
+      scalarType: String

@@ -1,0 +1,10 @@
+key: Text_efu9zm0l
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: qo5twp2s
+    selectable: false
+    textValue:
+      inputValue: "Estimated Delivery:"

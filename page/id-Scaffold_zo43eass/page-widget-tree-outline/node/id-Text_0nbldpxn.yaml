@@ -1,0 +1,21 @@
+key: Text_0nbldpxn
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: tciosm8t
+    selectable: false
+    textValue:
+      inputValue: Review in the App Store
+      mostRecentInputValue: Review in the App Store
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+parameterValues: {}

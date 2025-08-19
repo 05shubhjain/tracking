@@ -1,0 +1,46 @@
+identifier:
+  name: meals
+  key: k3qo0axl
+fields:
+  meal_name:
+    identifier:
+      name: meal_name
+    dataType:
+      scalarType: String
+  meal_image:
+    identifier:
+      name: meal_image
+    dataType:
+      scalarType: ImagePath
+  meal_ingredients:
+    identifier:
+      name: meal_ingredients
+    dataType:
+      scalarType: String
+  meal_allergens:
+    identifier:
+      name: meal_allergens
+    dataType:
+      listType:
+        scalarType: String
+  meal_favorites:
+    identifier:
+      name: meal_favorites
+    dataType:
+      listType:
+        scalarType: DocumentReference
+      subType:
+        collectionIdentifier:
+          name: users
+          key: dij4596p
+  meal_calories:
+    identifier:
+      name: meal_calories
+    dataType:
+      scalarType: Integer
+  meal_diet:
+    identifier:
+      name: meal_diet
+    dataType:
+      listType:
+        scalarType: String

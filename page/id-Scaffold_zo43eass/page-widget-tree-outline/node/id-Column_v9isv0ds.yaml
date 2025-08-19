@@ -1,0 +1,59 @@
+key: Column_v9isv0ds
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - accessDocumentField:
+                              fieldIdentifier:
+                                name: name
+                        nodeKeyRef:
+                          key: Column_g3yc7ehi
+                    - variable: {}
+                  condition:
+                    relation: EXISTS_AND_NON_EMPTY
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - accessDocumentField:
+                              fieldIdentifier:
+                                name: company_bio
+                        nodeKeyRef:
+                          key: Column_g3yc7ehi
+                    - {}
+                  condition:
+                    relation: EXISTS_AND_NON_EMPTY
+          combineConditions:
+            operator: AND_OP
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: AboutUsTile
+parameterValues: {}
+triggerActions:
+  - trigger:
+      triggerType: ON_TAP
+valueKey: {}

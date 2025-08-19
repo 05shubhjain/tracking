@@ -1,0 +1,18 @@
+key: Divider_1qc01fe7
+type: Divider
+props:
+  divider:
+    thicknessValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: ACCENT_4
+      mostRecentInputValue:
+        themeColor: ACCENT_4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

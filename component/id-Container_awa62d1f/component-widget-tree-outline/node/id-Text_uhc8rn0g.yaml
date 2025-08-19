@@ -1,0 +1,23 @@
+key: Text_uhc8rn0g
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 90ogrt1b
+    selectable: false
+    textValue:
+      inputValue: Send feedback
+      mostRecentInputValue: Send feedback
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    fontWeightValue:
+      inputValue: w500
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+parameterValues: {}

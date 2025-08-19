@@ -1,0 +1,29 @@
+key: Text_7g3lflu0
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    overflowReplacement: ellipsis
+    translationIdentifier:
+      key: ru9evi07
+    selectable: false
+    textValue:
+      inputValue: Avocado Toast
+    maxLinesValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    overriddenTextMaxCharsValue:
+      inputValue: 36
+      mostRecentInputValue: 36
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

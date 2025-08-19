@@ -1,0 +1,140 @@
+key: Container_gq10ioan
+type: Container
+props:
+  alignment: {}
+  expanded: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    7fwssp:
+      paramIdentifier:
+        name: parameter1
+        key: 7fwssp
+      variable:
+        source: LOCAL_STATE
+        baseVariable:
+          localState:
+            fieldIdentifier:
+              name: accordionSectionExpanded
+              key: td6xw
+            stateVariableType: WIDGET_CLASS_STATE
+        nodeKeyRef:
+          key: Container_mz3vztk9
+    o0wzzg:
+      paramIdentifier:
+        name: parameter2
+        key: o0wzzg
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - indexInList: {}
+        nodeKeyRef:
+          key: Column_gfcklckp
+    czdxw3:
+      paramIdentifier:
+        name: parameter3
+        key: czdxw3
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: question
+        nodeKeyRef:
+          key: Column_gfcklckp
+    d0vx9b:
+      paramIdentifier:
+        name: parameter4
+        key: d0vx9b
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: answer
+        nodeKeyRef:
+          key: Column_gfcklckp
+  widgetClassNodeKeyRef:
+    key: Container_ymjlg9md
+triggerActions:
+  - rootAction:
+      key: 3naazfk7
+      conditionActions:
+        falseAction:
+          key: u5vgpm2c
+          action:
+            localStateUpdate:
+              updates:
+                - fieldIdentifier:
+                    name: accordionSectionExpanded
+                    key: td6xw
+                  setValue:
+                    variable:
+                      source: FIRESTORE_REQUEST
+                      baseVariable:
+                        firestore: {}
+                      operations:
+                        - indexInList: {}
+                      nodeKeyRef:
+                        key: Column_gfcklckp
+              updateType: WIDGET
+              stateVariableType: WIDGET_CLASS_STATE
+            key: s4z61akv
+        trueActions:
+          - condition:
+              variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - indexInList: {}
+                        nodeKeyRef:
+                          key: Column_gfcklckp
+                    - variable:
+                        source: LOCAL_STATE
+                        baseVariable:
+                          localState:
+                            fieldIdentifier:
+                              name: accordionSectionExpanded
+                              key: td6xw
+                            stateVariableType: WIDGET_CLASS_STATE
+                        nodeKeyRef:
+                          key: Container_mz3vztk9
+                  condition:
+                    relation: EQUAL_TO
+            trueAction:
+              key: 6tnruqz8
+              action:
+                localStateUpdate:
+                  updates:
+                    - fieldIdentifier:
+                        key: td6xw
+                      clearValue: {}
+                  updateType: WIDGET
+                  stateVariableType: WIDGET_CLASS_STATE
+                key: dsnyye08
+        key: luystyxw
+    trigger:
+      triggerType: CALLBACK
+      parameterIdentifier:
+        name: action
+        key: dbczd0
+dynamicComponentKey:
+  uniqueKey: {}
+valueKey: {}
+componentClassKeyRef:
+  key: Container_ymjlg9md

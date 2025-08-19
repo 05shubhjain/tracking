@@ -1,0 +1,6 @@
+key: Row_y2iasp56
+type: Row
+props:
+  row:
+    crossAxisAlignment: cross_axis_start
+  responsiveVisibility: {}

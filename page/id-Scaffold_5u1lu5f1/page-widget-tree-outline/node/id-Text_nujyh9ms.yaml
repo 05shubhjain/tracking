@@ -1,0 +1,13 @@
+key: Text_nujyh9ms
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: d8iadsp1
+    selectable: false
+    textValue:
+      inputValue: Delivery Status
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

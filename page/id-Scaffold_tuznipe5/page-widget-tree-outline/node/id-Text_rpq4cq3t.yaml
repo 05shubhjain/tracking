@@ -1,0 +1,25 @@
+key: Text_rpq4cq3t
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: ikxbufr4
+    selectable: false
+    textValue:
+      inputValue: I don't remember my password
+      mostRecentInputValue: I don't remember my password
+  padding:
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

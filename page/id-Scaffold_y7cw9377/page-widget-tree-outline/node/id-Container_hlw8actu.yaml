@@ -1,0 +1,12 @@
+key: Container_hlw8actu
+type: Container
+props:
+  container:
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        allValue:
+          inputValue: 20
+      colorValue:
+        inputValue:
+          value: "4294309365"

@@ -1,0 +1,10 @@
+key: Text_a44hiz7h
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: q7tjqfti
+    selectable: false
+    textValue:
+      inputValue: 1x

@@ -1,0 +1,13 @@
+key: Text_p7pxmhz3
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: tn2hmrbj
+    selectable: false
+    textValue:
+      inputValue: "123 Main Street, Apt 4B, New York, NY 10001"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

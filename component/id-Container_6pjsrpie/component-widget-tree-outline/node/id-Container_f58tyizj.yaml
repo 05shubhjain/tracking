@@ -1,0 +1,100 @@
+key: Container_f58tyizj
+type: Container
+props:
+  container:
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 44
+          mostRecentInputValue: 44
+    boxDecoration:
+      borderRadius:
+        type: FF_BORDER_RADIUS_ALL
+        topLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        topRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomLeftValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        bottomRightValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+        allValue:
+          inputValue: 8
+          mostRecentInputValue: 8
+      boxShadow: {}
+      image:
+        type: FF_IMAGE_TYPE_NETWORK
+      colorValue:
+        variable:
+          source: FUNCTION_CALL
+          functionCall:
+            conditionalValue:
+              ifConditionalValues:
+                - condition:
+                    source: FUNCTION_CALL
+                    functionCall:
+                      values:
+                        - variable:
+                            source: WIDGET_CLASS_PARAMETER
+                            baseVariable:
+                              widgetClass:
+                                paramIdentifier:
+                                  name: parameter2
+                                  key: rshski
+                        - variable:
+                            source: WIDGET_CLASS_PARAMETER
+                            baseVariable:
+                              widgetClass:
+                                paramIdentifier:
+                                  name: parameter1
+                                  key: q8mtb2
+                      condition:
+                        relation: EQUAL_TO
+                  value:
+                    inputValue:
+                      color:
+                        themeColor: PRIMARY
+              elseValue:
+                inputValue:
+                  color:
+                    themeColor: SECONDARY_BACKGROUND
+              returnParameter:
+                dataType:
+                  scalarType: Color
+          uiBuilderValue:
+            color:
+              themeColor: PRIMARY
+        mostRecentInputValue:
+          themeColor: PRIMARY
+    maxDimensions: {}
+    minDimensions: {}
+    animationDurationValue:
+      inputValue: 100
+      mostRecentInputValue: 100
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: au61ajc5
+      action:
+        key: zb82yr91
+        executeCallbackAction:
+          parameterIdentifier:
+            name: action
+            key: wbe7rx
+          argumentValues: {}
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

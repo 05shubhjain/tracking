@@ -1,0 +1,22 @@
+key: Text_omwipqzd
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: rr9egqgr
+    selectable: false
+    textValue:
+      inputValue: Allergens
+      mostRecentInputValue: Allergens
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

@@ -1,0 +1,76 @@
+key: IconButton_jnazx415
+type: IconButton
+props:
+  iconButton:
+    buttonSize:
+      pixelsValue:
+        inputValue: 44
+        mostRecentInputValue: 44
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    borderRadiusValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    borderColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 18
+          mostRecentInputValue: 18
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY_TEXT
+          mostRecentInputValue:
+            themeColor: PRIMARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 61761
+            family: FontAwesomeSolid
+            package: font_awesome_flutter
+            matchTextDirection: false
+            packageIcon:
+              fontAwesome: ellipsisH
+            name: ellipsisH
+  visibility:
+    visibleValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: optionsButton
+              key: tzfie9
+        nodeKeyRef:
+          key: Container_tonp2zmx
+        uiBuilderValue:
+          serializedValue: "false"
+      mostRecentInputValue: false
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: fa7uu7lh
+      action:
+        key: efiuoixh
+        executeCallbackAction:
+          parameterIdentifier:
+            name: optionsButtonAction
+            key: tuljcd
+          argumentValues: {}
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

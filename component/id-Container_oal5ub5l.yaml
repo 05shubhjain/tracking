@@ -1,0 +1,10 @@
+name: feedbackBottomSheet
+params:
+  zmlv1x:
+    identifier:
+      name: mealName
+      key: zmlv1x
+    dataType:
+      scalarType: String
+node:
+  key: Container_oal5ub5l

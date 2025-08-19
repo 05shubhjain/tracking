@@ -1,0 +1,39 @@
+key: Text_lzpp4o17
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: vynie28k
+    selectable: false
+    textValue:
+      variable:
+        source: FUNCTION_CALL
+        defaultValue:
+          serializedValue: "Hello,"
+        functionCall:
+          values:
+            - variable:
+                source: GLOBAL_PROPERTIES
+                baseVariable:
+                  globalProperties:
+                    property: CURRENT_TIMESTAMP
+          customFunction:
+            name: returnProfileGreeting
+            key: uxp0x
+      mostRecentInputValue: "Good morning,"
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    bottomValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

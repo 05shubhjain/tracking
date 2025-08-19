@@ -1,0 +1,10 @@
+key: Text_z5h9zc4f
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: lkga7it3
+    selectable: false
+    textValue:
+      inputValue: Fresh Fruit Smoothie

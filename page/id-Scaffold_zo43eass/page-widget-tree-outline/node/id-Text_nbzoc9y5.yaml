@@ -1,0 +1,22 @@
+key: Text_nbzoc9y5
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: bwl07a9y
+    selectable: false
+    textValue:
+      inputValue: Share MealPlanner App
+      mostRecentInputValue: Share MealPlanner App
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

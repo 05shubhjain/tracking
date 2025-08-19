@@ -1,0 +1,20 @@
+key: Text_8lgcrjyd
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: dg7yzmtl
+    selectable: false
+    textValue:
+      inputValue: We'll send you an email to reset your password.
+      mostRecentInputValue: We'll send you an email to reset your password.
+    textAlignValue:
+      inputValue: ALIGN_START
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

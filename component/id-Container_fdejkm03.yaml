@@ -1,0 +1,18 @@
+name: titleWithSubtitle
+params:
+  577hh4:
+    identifier:
+      name: title
+      key: 577hh4
+    dataType:
+      scalarType: String
+      nonNullable: true
+  5i4eev:
+    identifier:
+      name: subtitle
+      key: 5i4eev
+    dataType:
+      scalarType: String
+      nonNullable: true
+node:
+  key: Container_fdejkm03

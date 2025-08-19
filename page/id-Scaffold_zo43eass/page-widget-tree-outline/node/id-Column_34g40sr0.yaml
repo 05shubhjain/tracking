@@ -1,0 +1,31 @@
+key: Column_34g40sr0
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: SupportCenterTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: jgorbjhc
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_phj2qk94
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_phj2qk94
+        key: kmdsh6c1
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

@@ -1,0 +1,23 @@
+key: Text_5bzrfy4s
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: lij60voe
+    selectable: false
+    textValue:
+      inputValue: Support Center
+      mostRecentInputValue: Support Center
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

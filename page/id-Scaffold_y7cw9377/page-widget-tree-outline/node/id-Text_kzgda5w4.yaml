@@ -1,0 +1,19 @@
+key: Text_kzgda5w4
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: i9yaamav
+    selectable: false
+    textValue:
+      inputValue: Cherry Tomatoes
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

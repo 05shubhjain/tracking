@@ -1,0 +1,24 @@
+key: Row_1h9purvk
+type: Row
+props:
+  row:
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: c0v1vhyo
+      action:
+        key: psninl1z
+        executeCallbackAction:
+          parameterIdentifier:
+            name: action
+            key: dbczd0
+          argumentValues: {}
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

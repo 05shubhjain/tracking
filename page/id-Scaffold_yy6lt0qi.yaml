@@ -1,0 +1,18 @@
+name: MealDetails
+params:
+  g56mhg:
+    identifier:
+      name: mealRef
+      key: g56mhg
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: meals
+          key: k3qo0axl
+node:
+  key: Scaffold_yy6lt0qi
+pageRouteSettings:
+  routePath: meal/:mealRef
+  onlyAuthenticated: true
+classModel: {}

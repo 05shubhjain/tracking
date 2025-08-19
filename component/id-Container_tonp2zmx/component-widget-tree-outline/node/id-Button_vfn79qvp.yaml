@@ -1,0 +1,111 @@
+key: Button_vfn79qvp
+type: Button
+props:
+  button:
+    text:
+      themeStyle: BODY_MEDIUM
+      translationIdentifier:
+        key: 1iqo0xwv
+      textValue:
+        variable:
+          source: WIDGET_CLASS_PARAMETER
+          defaultValue:
+            serializedValue: Button
+          baseVariable:
+            widgetClass:
+              paramIdentifier:
+                name: actionButtonText
+                key: sptaqo
+          nodeKeyRef:
+            key: Container_tonp2zmx
+        mostRecentInputValue: Save
+      colorValue:
+        inputValue:
+          themeColor: PRIMARY_BACKGROUND
+        mostRecentInputValue:
+          themeColor: PRIMARY_BACKGROUND
+      fontWeightValue:
+        inputValue: w600
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      topLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      topRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      allValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+    dimensions:
+      height:
+        pixelsValue:
+          inputValue: 44
+          mostRecentInputValue: 44
+    elevationValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+      mostRecentInputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    disabledColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    disabledTextColorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+  expanded:
+    expandedType: UNEXPANDED
+  visibility:
+    visibleValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: actionButton
+              key: dk2qeb
+        nodeKeyRef:
+          key: Container_tonp2zmx
+        uiBuilderValue:
+          serializedValue: "false"
+      mostRecentInputValue: false
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 7xd30k2a
+      action:
+        key: t828kk2x
+        executeCallbackAction:
+          parameterIdentifier:
+            name: actionButtonAction
+            key: a5yeh6
+          argumentValues: {}
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

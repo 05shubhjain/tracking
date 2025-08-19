@@ -1,0 +1,10 @@
+key: Text_4bbcdmbu
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: 7i29qwhl
+    selectable: false
+    textValue:
+      inputValue: Calories

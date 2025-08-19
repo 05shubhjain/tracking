@@ -1,0 +1,18 @@
+key: Text_0q3tx67x
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: s2vy008c
+    selectable: false
+    textValue:
+      inputValue: Sign In
+      mostRecentInputValue: Sign In
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+parameterValues: {}

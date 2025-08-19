@@ -1,0 +1,69 @@
+key: Text_stlab8ba
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: mshmnp96
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: parameter1
+              key: loe9il
+      mostRecentInputValue: Shellfish
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    colorValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          conditionalValue:
+            ifConditionalValues:
+              - condition:
+                  source: WIDGET_CLASS_PARAMETER
+                  baseVariable:
+                    widgetClass:
+                      paramIdentifier:
+                        name: parameter2
+                        key: 9dohyn
+                  operations:
+                    - listContains:
+                        element:
+                          source: WIDGET_CLASS_PARAMETER
+                          baseVariable:
+                            widgetClass:
+                              paramIdentifier:
+                                name: text
+                                key: loe9il
+                          nodeKeyRef:
+                            key: Container_ndy9exy5
+                value:
+                  inputValue:
+                    color:
+                      themeColor: PRIMARY_BACKGROUND
+            elseValue:
+              inputValue:
+                color:
+                  themeColor: PRIMARY_TEXT
+            returnParameter:
+              dataType:
+                scalarType: Color
+        uiBuilderValue:
+          color:
+            themeColor: PRIMARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: PRIMARY_BACKGROUND
+    fontWeightValue:
+      inputValue: w600
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

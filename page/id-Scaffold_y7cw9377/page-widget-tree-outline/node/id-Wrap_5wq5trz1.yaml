@@ -1,0 +1,15 @@
+key: Wrap_5wq5trz1
+type: Wrap
+props:
+  padding: {}
+  wrap:
+    childAlignment: wrap_start
+    crossAxisAlignment: wrap_cross_start
+    direction: FF_AXIS_HORIZONTAL
+    runAlignment: wrap_start
+    verticalDirection: FF_VERTICAL_DIRECTION_DOWN
+    clipBehavior: FF_CLIP_NONE
+    spacingValue:
+      inputValue: 8
+    runSpacingValue:
+      inputValue: 8

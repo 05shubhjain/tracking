@@ -1,0 +1,13 @@
+key: Text_uwl1m1wp
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: gene65ng
+    selectable: false
+    textValue:
+      inputValue: "Estimated: 6:30 PM"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

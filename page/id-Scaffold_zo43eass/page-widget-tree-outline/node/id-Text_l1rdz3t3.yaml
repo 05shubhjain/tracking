@@ -1,0 +1,22 @@
+key: Text_l1rdz3t3
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 0ncruabu
+    selectable: false
+    textValue:
+      inputValue: About Us
+      mostRecentInputValue: About Us
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

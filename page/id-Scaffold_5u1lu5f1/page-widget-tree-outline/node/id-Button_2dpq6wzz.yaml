@@ -1,0 +1,40 @@
+key: Button_2dpq6wzz
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      translationIdentifier:
+        key: bbcrmj9d
+      selectable: true
+      textValue:
+        inputValue: Contact Delivery Partner
+      colorValue:
+        inputValue:
+          themeColor: INFO
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 25
+    innerPadding:
+      type: FF_PADDING_ALL
+      allValue:
+        inputValue: 8
+    dimensions:
+      width:
+        percentOfScreenSizeValue:
+          inputValue: 100
+      height:
+        pixelsValue:
+          inputValue: 50
+    elevationValue:
+      inputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+  padding: {}

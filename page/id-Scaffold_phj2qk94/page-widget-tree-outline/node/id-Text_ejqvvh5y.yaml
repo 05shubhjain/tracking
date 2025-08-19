@@ -1,0 +1,24 @@
+key: Text_ejqvvh5y
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    isCustomFont: true
+    translationIdentifier:
+      key: j0taqs22
+    selectable: false
+    textValue:
+      inputValue: Support Center
+      mostRecentInputValue: Support Center
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

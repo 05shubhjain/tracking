@@ -1,0 +1,68 @@
+key: IconButton_9dweljjd
+type: IconButton
+props:
+  iconButton:
+    buttonSize:
+      pixelsValue:
+        inputValue: 44
+        mostRecentInputValue: 44
+    fillColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    borderRadiusValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+    borderColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    iconValue:
+      inputValue:
+        sizeValue:
+          inputValue: 18
+          mostRecentInputValue: 18
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY_TEXT
+          mostRecentInputValue:
+            themeColor: PRIMARY_TEXT
+        iconDataValue:
+          inputValue:
+            codePoint: 58196
+            family: MaterialIcons
+            matchTextDirection: false
+            name: keyboard_arrow_left
+  visibility:
+    visibleValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: backButton
+              key: dwvi3i
+        nodeKeyRef:
+          key: Container_tonp2zmx
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: ipizanzg
+      action:
+        navigate:
+          isNavigateBack: true
+          navigateToRootPageOnFailure: true
+        key: sg4amwth
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

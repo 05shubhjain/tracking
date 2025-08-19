@@ -1,0 +1,12 @@
+key: Text_y55jzzcm
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: zgi4m9p4
+    selectable: false
+    textValue:
+      inputValue: "Order #MLP-2458"
+    fontWeightValue:
+      inputValue: w600

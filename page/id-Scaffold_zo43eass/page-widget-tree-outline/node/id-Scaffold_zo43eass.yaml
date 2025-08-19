@@ -1,0 +1,69 @@
+key: Scaffold_zo43eass
+type: Scaffold
+props:
+  scaffold:
+    safeArea: true
+    navBarItem:
+      navIcon:
+        sizeValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        colorValue:
+          inputValue:
+            value: "4288585374"
+          mostRecentInputValue:
+            value: "4288585374"
+        iconDataValue:
+          inputValue:
+            codePoint: 983148
+            family: MaterialIcons
+            matchTextDirection: false
+            name: person_outline_rounded
+      navActiveIcon:
+        sizeValue:
+          inputValue: 24
+          mostRecentInputValue: 24
+        colorValue:
+          inputValue:
+            themeColor: PRIMARY
+          mostRecentInputValue:
+            themeColor: PRIMARY
+        iconDataValue:
+          inputValue:
+            codePoint: 983153
+            family: MaterialIcons
+            matchTextDirection: false
+            name: person_rounded
+      show: true
+      differentActiveIcon: true
+      label:
+        translationIdentifier:
+          key: upjxgphb
+        textValue:
+          inputValue: Profile
+          mostRecentInputValue: Profile
+      alwaysShowNavBar: false
+    hideKeyboardOnTap: true
+    backgroundColorValue:
+      inputValue:
+        themeColor: PRIMARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: PRIMARY_BACKGROUND
+  queryLoadingWidget:
+    loadingWidget:
+      defaultLoadingIndicator: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: Profile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: xuvfz03e
+      action:
+        key: aeja87dv
+        hapticFeedback:
+          type: FF_HAPTIC_FEEDBACK_MEDIUM
+    trigger:
+      triggerType: ON_INIT_STATE

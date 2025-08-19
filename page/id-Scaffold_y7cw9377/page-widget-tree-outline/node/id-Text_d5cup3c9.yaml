@@ -1,0 +1,10 @@
+key: Text_d5cup3c9
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: otihegrk
+    selectable: false
+    textValue:
+      inputValue: Tax

@@ -1,0 +1,21 @@
+node:
+  key: Scaffold_dvxzhz9e
+  body:
+    key: Column_ixj1h77l
+    children:
+      - key: Column_1wv5g9a5
+        children:
+          - key: Container_vh6bmd7g
+          - key: RichText_322jnb4v
+            children:
+              - key: RichTextSpan_x1n8hrk6
+              - key: RichTextSpan_6nev3908
+      - key: Column_warkoza9
+        children:
+          - key: Button_nqjxzg5r
+          - key: Column_9mc7ub12
+            children:
+              - key: RichText_rwkrfli2
+                children:
+                  - key: RichTextSpan_ezd05yhv
+                  - key: RichTextSpan_haejxzlg

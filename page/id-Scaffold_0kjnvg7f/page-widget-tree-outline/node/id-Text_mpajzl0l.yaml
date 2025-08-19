@@ -1,0 +1,22 @@
+key: Text_mpajzl0l
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 23mqq1h9
+    selectable: false
+    textValue:
+      inputValue: Email
+      mostRecentInputValue: Email
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

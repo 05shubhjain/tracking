@@ -1,0 +1,13 @@
+key: Text_diut0y34
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: ul36jtle
+    selectable: false
+    textValue:
+      inputValue: Your order has been received
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

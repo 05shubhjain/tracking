@@ -1,0 +1,36 @@
+rootFolders:
+  - key: 2r6e4efg
+    name: pages
+    children:
+      - key: fyc57fvz
+        name: Onboarding
+      - key: v1i0pul0
+        name: Meals
+      - key: 71ppvtre
+        name: Profile
+  - key: 270yoo9e
+    name: components
+widgetClassKeyToFolderKey:
+  Scaffold_wlvb8t9l: fyc57fvz
+  Scaffold_0kjnvg7f: fyc57fvz
+  Scaffold_tuznipe5: fyc57fvz
+  Scaffold_upb7exa8: fyc57fvz
+  Scaffold_j357xupf: v1i0pul0
+  Scaffold_yy6lt0qi: v1i0pul0
+  Scaffold_zo43eass: 71ppvtre
+  Scaffold_tcprpejf: 71ppvtre
+  Scaffold_4j4kqrvy: 71ppvtre
+  Scaffold_phj2qk94: 71ppvtre
+  Scaffold_dvxzhz9e: fyc57fvz
+  Container_ssjuo7cz: 270yoo9e
+  Container_awa62d1f: 270yoo9e
+  Container_oal5ub5l: 270yoo9e
+  Container_mz3vztk9: 270yoo9e
+  Container_mygm5cp5: 270yoo9e
+  Container_xvx1n2u0: 270yoo9e
+  Container_6zi23bg9: 270yoo9e
+  Container_fdejkm03: 270yoo9e
+  Container_6pjsrpie: 270yoo9e
+  Container_ndy9exy5: 270yoo9e
+  Scaffold_5u1lu5f1: fyc57fvz
+  Scaffold_y7cw9377: fyc57fvz

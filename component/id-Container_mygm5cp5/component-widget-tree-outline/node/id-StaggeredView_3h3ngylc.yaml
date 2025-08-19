@@ -1,0 +1,72 @@
+key: StaggeredView_3h3ngylc
+type: GridView
+props:
+  gridView:
+    shrinkWrapValue:
+      inputValue: false
+      mostRecentInputValue: false
+    crossAxisCountValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    crossAxisSpacingValue:
+      inputValue: 10
+      mostRecentInputValue: 10
+    mainAxisSpacingValue:
+      inputValue: 10
+      mostRecentInputValue: 10
+    childAspectRatioValue:
+      inputValue: 0.79
+      mostRecentInputValue: 0.79
+    isHorizontalValue:
+      inputValue: false
+      mostRecentInputValue: false
+  expanded:
+    expandedType: EXPANDED
+  emptyListWidget:
+    show: false
+    displayInFlutterFlow: false
+    center: false
+    componentDimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        percentOfScreenSizeValue:
+          inputValue: 70
+          mostRecentInputValue: 70
+    componentParameters:
+      widgetClassNodeKeyRef:
+        key: Container_xvx1n2u0
+    componentClassNodeKeyRef:
+      key: Container_xvx1n2u0
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget:
+      componentDimensions: {}
+      componentParameters:
+        widgetClassNodeKeyRef:
+          key: Container_mygm5cp5
+      componentClassNodeKeyRef:
+        key: Container_mygm5cp5
+    displayInFlutterFlow: false
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+generatorVariable:
+  identifier:
+    name: loaderItems
+  variable:
+    source: SAMPLE_DATA
+    baseVariable:
+      randomData:
+        isList: true
+        minLength: 0
+        maxLength: 0
+        name:
+          nameType: FIRST_AND_LAST
+  limit: 4
+themeWidgetInfo: {}
+valueKey: {}

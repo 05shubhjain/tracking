@@ -1,0 +1,12 @@
+appIconPath: projects/meal-planner-3nia1o/assets/uw9p4b649afa/MealPlanner.png
+splashImage:
+  path: projects/meal-planner-3nia1o/assets/ixu763su6djm/MealPlanner_Rounded.png
+  fit: FF_BOX_FIT_COVER
+  dimensions:
+    width:
+      pixelsValue:
+        inputValue: 175
+        mostRecentInputValue: 175
+    height: {}
+  backgroundColor:
+    themeColor: PRIMARY_BACKGROUND

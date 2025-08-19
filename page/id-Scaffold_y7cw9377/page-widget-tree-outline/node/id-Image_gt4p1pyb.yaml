@@ -1,0 +1,20 @@
+key: Image_gt4p1pyb
+type: Image
+props:
+  image:
+    type: FF_IMAGE_TYPE_NETWORK
+    fit: FF_BOX_FIT_COVER
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: 100
+      height:
+        pixelsValue:
+          inputValue: 100
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      allValue:
+        inputValue: 12
+    pathValue:
+      inputValue: ""
+    format: FF_IMAGE_FORMAT_IMAGE

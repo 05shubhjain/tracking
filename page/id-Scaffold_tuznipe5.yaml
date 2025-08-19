@@ -1,0 +1,5 @@
+name: SignIn
+node:
+  key: Scaffold_tuznipe5
+pageRouteSettings:
+  routePath: sign-in

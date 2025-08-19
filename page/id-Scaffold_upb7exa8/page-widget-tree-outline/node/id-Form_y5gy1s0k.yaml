@@ -1,0 +1,24 @@
+key: Form_y5gy1s0k
+type: Form
+props:
+  responsiveVisibility: {}
+  form:
+    validations:
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: 6pzz9d4w
+            textValue:
+              inputValue: Email is required.
+              mostRecentInputValue: Email is required.
+          emailRegex: true
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: sctqhtpn
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_6dapu93g
+name: signInForm

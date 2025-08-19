@@ -1,0 +1,8 @@
+key: Row_obyfqtvq
+type: Row
+props:
+  row:
+    listSpacing:
+      spacingValue:
+        inputValue: 16
+  padding: {}

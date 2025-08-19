@@ -1,0 +1,71 @@
+key: Text_by3hfvfm
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 9l46kjae
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: parameter1
+              key: q8mtb2
+      mostRecentInputValue: Classic
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    colorValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          conditionalValue:
+            ifConditionalValues:
+              - condition:
+                  source: FUNCTION_CALL
+                  functionCall:
+                    values:
+                      - variable:
+                          source: WIDGET_CLASS_PARAMETER
+                          baseVariable:
+                            widgetClass:
+                              paramIdentifier:
+                                name: parameter2
+                                key: rshski
+                      - variable:
+                          source: WIDGET_CLASS_PARAMETER
+                          baseVariable:
+                            widgetClass:
+                              paramIdentifier:
+                                name: parameter1
+                                key: q8mtb2
+                    condition:
+                      relation: EQUAL_TO
+                value:
+                  inputValue:
+                    color:
+                      themeColor: PRIMARY_BACKGROUND
+            elseValue:
+              inputValue:
+                color:
+                  themeColor: PRIMARY_TEXT
+            returnParameter:
+              dataType:
+                scalarType: Color
+        uiBuilderValue:
+          color:
+            themeColor: PRIMARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: PRIMARY_BACKGROUND
+    fontWeightValue:
+      inputValue: w600
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,31 @@
+node:
+  key: Scaffold_0kjnvg7f
+  body:
+    key: Column_ua7suz3j
+    children:
+      - key: Container_paoiizqq
+      - key: Text_o1x33tmi
+      - key: Form_1ztf8wd9
+        children:
+          - key: Column_ujc0pult
+            children:
+              - key: Column_9osmzfs7
+                children:
+                  - key: Text_0qvvuk9h
+                  - key: TextField_28cxhxrv
+              - key: Column_vlijbstu
+                children:
+                  - key: Text_mpajzl0l
+                  - key: TextField_g6vq1c59
+              - key: Column_zvgibdys
+                children:
+                  - key: Text_suxfv72k
+                  - key: TextField_xw630eg4
+      - key: Button_2jt8n002
+      - key: Row_jbbvnruh
+        children:
+          - key: RichText_t8sm75qz
+            children:
+              - key: RichTextSpan_esq59vnt
+              - key: RichTextSpan_3dte6oha
+              - key: RichTextSpan_l3a5zxu9

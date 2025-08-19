@@ -1,0 +1,13 @@
+key: Row_jxlxr2iy
+type: Row
+props:
+  row: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}

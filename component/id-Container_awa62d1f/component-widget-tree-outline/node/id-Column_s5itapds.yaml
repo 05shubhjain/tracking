@@ -1,0 +1,58 @@
+key: Column_s5itapds
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: ShareMealTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: i7ow3s65
+      action:
+        share:
+          shareLink:
+            variable:
+              source: FUNCTION_CALL
+              functionCall:
+                stringInterpolation: {}
+                values:
+                  - inputValue:
+                      serializedValue: "Check out this amazing recipe for "
+                  - variable:
+                      source: WIDGET_CLASS_PARAMETER
+                      baseVariable:
+                        widgetClass:
+                          paramIdentifier:
+                            name: mealRef
+                            key: grnl1v
+                      operations:
+                        - accessDocumentField:
+                            fieldIdentifier:
+                              name: meal_name
+                      nodeKeyRef:
+                        key: Container_awa62d1f
+                  - inputValue:
+                      serializedValue: "! Here are the ingredients: "
+                  - variable:
+                      source: WIDGET_CLASS_PARAMETER
+                      baseVariable:
+                        widgetClass:
+                          paramIdentifier:
+                            name: mealRef
+                            key: grnl1v
+                      operations:
+                        - accessDocumentField:
+                            fieldIdentifier:
+                              name: meal_ingredients
+                      nodeKeyRef:
+                        key: Container_awa62d1f
+        key: 6t6inqhw
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

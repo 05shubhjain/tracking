@@ -1,0 +1,12 @@
+key: Column_9osmzfs7
+type: Column
+props:
+  column:
+    crossAxisAlignment: cross_axis_start
+    primary: true
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}

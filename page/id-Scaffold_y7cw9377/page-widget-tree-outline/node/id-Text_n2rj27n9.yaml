@@ -1,0 +1,12 @@
+key: Text_n2rj27n9
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: lvbfto3a
+    selectable: false
+    textValue:
+      inputValue: Total
+    fontWeightValue:
+      inputValue: w600

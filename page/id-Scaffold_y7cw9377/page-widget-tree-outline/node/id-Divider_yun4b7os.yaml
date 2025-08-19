@@ -1,0 +1,11 @@
+key: Divider_yun4b7os
+type: Divider
+props:
+  padding: {}
+  divider:
+    lineStyle: SOLID
+    thicknessValue:
+      inputValue: 1
+    colorValue:
+      inputValue:
+        themeColor: ALTERNATE

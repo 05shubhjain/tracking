@@ -1,0 +1,12 @@
+key: Container_ndy9exy5
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: preferenceItem
+isDummyRoot: true

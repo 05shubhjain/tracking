@@ -1,0 +1,58 @@
+key: Text_519kqaev
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: qaffj8g9
+    selectable: false
+    textValue:
+      inputValue: "Local, Customized\nMeal Planning"
+      mostRecentInputValue: "Local, Customized\nMeal Planning"
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  responsiveVisibility: {}
+parameterValues: {}
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: EASE_IN_OUT
+        scale:
+          beginDx:
+            inputValue:
+              serializedValue: "0.9"
+          endDx:
+            inputValue:
+              serializedValue: "1.0"
+          beginDy:
+            inputValue:
+              serializedValue: "0.9"
+          endDy:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+      - curve: EASE_IN_OUT
+        fade:
+          begin:
+            inputValue:
+              serializedValue: "0.0"
+          end:
+            inputValue:
+              serializedValue: "1.0"
+        delay:
+          inputValue:
+            serializedValue: "0.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+    applyInitialState: true

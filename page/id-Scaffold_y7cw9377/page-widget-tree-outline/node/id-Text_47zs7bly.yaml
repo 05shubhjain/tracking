@@ -1,0 +1,13 @@
+key: Text_47zs7bly
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: 5xzgyqmd
+    selectable: false
+    textValue:
+      inputValue: Your Order
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

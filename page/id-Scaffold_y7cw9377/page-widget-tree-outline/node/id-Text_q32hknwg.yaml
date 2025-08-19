@@ -1,0 +1,13 @@
+key: Text_q32hknwg
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: za6p5q5s
+    selectable: false
+    textValue:
+      inputValue: "Today, 6:30 PM - 7:00 PM"
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

@@ -1,0 +1,13 @@
+key: Text_xp227p09
+type: Text
+props:
+  text:
+    themeStyle: HEADLINE_SMALL
+    translationIdentifier:
+      key: lrxb5gwr
+    selectable: false
+    textValue:
+      inputValue: Order Summary
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

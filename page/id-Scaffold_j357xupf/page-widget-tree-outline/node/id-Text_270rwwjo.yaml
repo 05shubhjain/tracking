@@ -1,0 +1,21 @@
+key: Text_270rwwjo
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: c4t4o3xf
+    selectable: false
+    textValue:
+      inputValue: This week's meals
+      mostRecentInputValue: This week's meals
+    fontWeightValue:
+      inputValue: w600
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: heading
+parameterValues: {}
+valueKey: {}

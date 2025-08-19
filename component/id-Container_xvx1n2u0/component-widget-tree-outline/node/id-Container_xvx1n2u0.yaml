@@ -1,0 +1,12 @@
+key: Container_xvx1n2u0
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: emptyState
+isDummyRoot: true

@@ -1,0 +1,21 @@
+key: Container_xlpvheyw
+type: Container
+props:
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  widgetClassNodeKeyRef:
+    key: Container_mz3vztk9
+valueKey: {}
+componentClassKeyRef:
+  key: Container_mz3vztk9

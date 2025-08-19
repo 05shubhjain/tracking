@@ -1,0 +1,22 @@
+key: Text_upkzx78s
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: dbftuq6k
+    selectable: false
+    textValue:
+      inputValue: Healthy
+    colorValue:
+      inputValue:
+        value: "4281236786"
+  padding:
+    leftValue:
+      inputValue: 4
+    topValue:
+      inputValue: 8
+    rightValue:
+      inputValue: 4
+    bottomValue:
+      inputValue: 8

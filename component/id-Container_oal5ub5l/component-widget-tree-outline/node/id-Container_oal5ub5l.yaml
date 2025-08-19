@@ -1,0 +1,12 @@
+key: Container_oal5ub5l
+type: Container
+props:
+  container:
+    boxDecoration:
+      colorValue:
+        inputValue:
+          value: "0"
+        mostRecentInputValue:
+          value: "0"
+name: feedbackBottomSheet
+isDummyRoot: true

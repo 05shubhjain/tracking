@@ -1,0 +1,13 @@
+key: Text_wcvalmfb
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: 0jmazqtm
+    selectable: false
+    textValue:
+      inputValue: Your meal is being freshly prepared
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

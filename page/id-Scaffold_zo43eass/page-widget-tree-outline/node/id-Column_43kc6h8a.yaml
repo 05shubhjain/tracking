@@ -1,0 +1,29 @@
+key: Column_43kc6h8a
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: EatingPrefsTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 87tme888
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_4j4kqrvy
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_4j4kqrvy
+        key: b4in52hr
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

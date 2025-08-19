@@ -1,0 +1,17 @@
+key: RichTextSpan_3dte6oha
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: BODY_SMALL
+      translationIdentifier:
+        key: 2pblnw75
+      underline: true
+      textValue:
+        inputValue: Terms of Use
+        mostRecentInputValue: Terms of Use
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

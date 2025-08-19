@@ -1,0 +1,23 @@
+key: Row_l6w17qti
+type: Row
+props:
+  row:
+    listSpacing:
+      spacingValue:
+        inputValue: 16
+  padding: {}
+triggerActions:
+  - rootAction:
+      key: 6swlvil8
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_y7cw9377
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_y7cw9377
+        key: 78dbsfcv
+    trigger:
+      triggerType: ON_TAP

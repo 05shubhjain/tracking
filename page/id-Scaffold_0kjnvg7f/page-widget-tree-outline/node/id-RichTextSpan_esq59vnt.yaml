@@ -1,0 +1,12 @@
+key: RichTextSpan_esq59vnt
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: BODY_SMALL
+      translationIdentifier:
+        key: 6ongsqy2
+      textValue:
+        inputValue: "By clicking \"Create Account,\" you agree to MealPlanner's "
+        mostRecentInputValue: "By clicking \"Create Account,\" you agree to MealPlanner's "
+parameterValues: {}

@@ -1,0 +1,110 @@
+key: Button_hsvc9ygj
+type: Button
+props:
+  button:
+    text:
+      themeStyle: BODY_MEDIUM
+      translationIdentifier:
+        key: q3h3nqv8
+      textValue:
+        inputValue: Delete Account
+        mostRecentInputValue: Delete Account
+      colorValue:
+        inputValue:
+          value: "4290202957"
+        mostRecentInputValue:
+          value: "4290202957"
+      fontWeightValue:
+        inputValue: w600
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      topLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      topRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      allValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 50
+          mostRecentInputValue: 50
+    elevationValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    fillColorValue:
+      inputValue:
+        value: "4294956244"
+      mostRecentInputValue:
+        value: "4294956244"
+    borderColorValue:
+      inputValue:
+        value: "0"
+      mostRecentInputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    disabledColorValue:
+      inputValue:
+        themeColor: SECONDARY_BACKGROUND
+      mostRecentInputValue:
+        themeColor: SECONDARY_BACKGROUND
+    disabledTextColorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 48
+      mostRecentInputValue: 48
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: q4t79fps
+      action:
+        auth:
+          type: DELETE_USER
+        key: 7c0ja8xb
+      followUpAction:
+        key: qesnyik3
+        action:
+          navigate:
+            allowBack: false
+            passedParameters:
+              widgetClassNodeKeyRef:
+                key: Scaffold_dvxzhz9e
+            isNavigateBack: false
+            transition:
+              transitionType: INSTANT
+            pageNodeKeyRef:
+              key: Scaffold_dvxzhz9e
+          key: 8oxm74lz
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

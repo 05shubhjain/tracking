@@ -1,0 +1,28 @@
+key: Text_kcbbofzv
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: kgh51cuf
+    selectable: false
+    textValue:
+      inputValue: "As a local business, we thank you for supporting us and hope you enjoy."
+      mostRecentInputValue: "As a local business, we thank you for supporting us and hope you enjoy."
+    colorValue:
+      inputValue:
+        themeColor: INFO
+      mostRecentInputValue:
+        themeColor: INFO
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 6
+      mostRecentInputValue: 6
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,12 @@
+key: Text_jxbe3y8t
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 7fthwc9m
+    selectable: false
+    textValue:
+      inputValue: Meal Preparation
+    fontWeightValue:
+      inputValue: w600

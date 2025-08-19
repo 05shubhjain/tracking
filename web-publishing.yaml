@@ -1,0 +1,10 @@
+webSettings:
+  PROD:
+    seoTitle: MealPlanner
+    subdomain: mealplanner
+    pageTitle: MealPlanner
+    allowPwa: true
+    statusBarColor:
+      value: "4294967295"
+      darkModeColor:
+        value: "4279901988"

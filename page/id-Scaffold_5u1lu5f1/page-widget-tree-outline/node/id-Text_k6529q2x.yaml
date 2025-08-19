@@ -1,0 +1,13 @@
+key: Text_k6529q2x
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: qnjcanmx
+    selectable: false
+    textValue:
+      inputValue: Your meal has left our hub
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT

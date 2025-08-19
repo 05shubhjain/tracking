@@ -1,0 +1,29 @@
+key: Column_00xlifj1
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: EditProfileTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: fueciqci
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_tcprpejf
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_tcprpejf
+        key: pw1zxz6i
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

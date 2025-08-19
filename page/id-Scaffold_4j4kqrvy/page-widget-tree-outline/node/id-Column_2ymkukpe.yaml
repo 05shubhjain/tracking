@@ -1,0 +1,26 @@
+key: Column_2ymkukpe
+type: Column
+props:
+  column:
+    primary: true
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: company_information
+          key: xzif168n
+  firestore:
+    collectionIdentifier:
+      name: company_information
+      key: xzif168n
+    hideOnEmpty: true

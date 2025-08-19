@@ -1,0 +1,62 @@
+rules:
+  collectionRules:
+    dij4596p:
+      creat:
+        users: {}
+      read:
+        users: {}
+      update:
+        users: {}
+      delete:
+        users: {}
+      deleteWhenUserIsDeleted: true
+    k3qo0axl:
+      creat:
+        noOne: {}
+      read:
+        authenticatedUsers: {}
+      update:
+        authenticatedUsers: {}
+      delete:
+        noOne: {}
+    oe23ak9r:
+      creat:
+        noOne: {}
+      read:
+        everyone: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+      isPublic: true
+    xzif168n:
+      creat:
+        noOne: {}
+      read:
+        authenticatedUsers: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+      isPublic: true
+    tloyzkib:
+      creat:
+        authenticatedUsers: {}
+      read:
+        noOne: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+      isPublic: true
+    cfkvv92a:
+      creat:
+        noOne: {}
+      read:
+        authenticatedUsers: {}
+      update:
+        noOne: {}
+      delete:
+        noOne: {}
+      isPublic: true
+  usersCollectionReadVisibility: READ_VISIBILITY_SELF

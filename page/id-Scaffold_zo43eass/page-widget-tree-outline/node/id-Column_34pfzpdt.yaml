@@ -1,0 +1,14 @@
+key: Column_34pfzpdt
+type: Column
+props:
+  column:
+    scrollable: true
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

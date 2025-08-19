@@ -1,0 +1,117 @@
+key: Column_a22870m5
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          values:
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - accessDocumentField:
+                              fieldIdentifier:
+                                name: email
+                        nodeKeyRef:
+                          key: Column_g3yc7ehi
+                    - {}
+                  condition:
+                    relation: EXISTS_AND_NON_EMPTY
+            - variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - accessDocumentField:
+                              fieldIdentifier:
+                                name: phone
+                        nodeKeyRef:
+                          key: Column_g3yc7ehi
+                    - {}
+                  condition:
+                    relation: EXISTS_AND_NON_EMPTY
+          combineConditions:
+            operator: OR_OP
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: ContactUsTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 033vit20
+      conditionActions:
+        falseAction:
+          key: vc2z3c55
+          action:
+            key: v9wgp94z
+            callNumber:
+              phoneNumber:
+                variable:
+                  source: FIRESTORE_REQUEST
+                  baseVariable:
+                    firestore: {}
+                  operations:
+                    - accessDocumentField:
+                        fieldIdentifier:
+                          name: phone
+                  nodeKeyRef:
+                    key: Column_g3yc7ehi
+        trueActions:
+          - condition:
+              variable:
+                source: FUNCTION_CALL
+                functionCall:
+                  values:
+                    - variable:
+                        source: FIRESTORE_REQUEST
+                        baseVariable:
+                          firestore: {}
+                        operations:
+                          - accessDocumentField:
+                              fieldIdentifier:
+                                name: email
+                        nodeKeyRef:
+                          key: Column_g3yc7ehi
+                    - {}
+                  condition:
+                    relation: EXISTS_AND_NON_EMPTY
+            trueAction:
+              key: 0c9h3u5t
+              action:
+                key: 2jb34t1s
+                sendEmail:
+                  emailAddress:
+                    variable:
+                      source: FIRESTORE_REQUEST
+                      baseVariable:
+                        firestore: {}
+                      operations:
+                        - accessDocumentField:
+                            fieldIdentifier:
+                              name: email
+                      nodeKeyRef:
+                        key: Column_g3yc7ehi
+                  subject:
+                    inputValue: {}
+                  body:
+                    inputValue: {}
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

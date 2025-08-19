@@ -1,0 +1,87 @@
+key: Button_1ifr5xbr
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      translationIdentifier:
+        key: 3lhh97lc
+      textValue:
+        inputValue: Sign In
+        mostRecentInputValue: Sign In
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      topLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      topRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      allValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 50
+          mostRecentInputValue: 50
+    elevationValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+      mostRecentInputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 24
+      mostRecentInputValue: 24
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: pmiyjq95
+      action:
+        key: 5q7n0iyg
+        hapticFeedback:
+          type: FF_HAPTIC_FEEDBACK_LIGHT
+      followUpAction:
+        key: fz95ikyv
+        action:
+          auth:
+            type: LOGIN
+            provider: EMAIL
+            emailFieldKeyRef:
+              key: TextField_a4svmzii
+            passwordFieldKeyRef:
+              key: TextField_trzaxjtz
+          key: t8nltp89
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

@@ -1,0 +1,20 @@
+key: Text_6gqjxbl0
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: j3xrk9jj
+    selectable: false
+    textValue:
+      inputValue: Email
+      mostRecentInputValue: Email
+    fontWeightValue:
+      inputValue: w600
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+parameterValues: {}

@@ -1,0 +1,19 @@
+identifier:
+  name: feedback
+  key: tloyzkib
+fields:
+  meal_name:
+    identifier:
+      name: meal_name
+    dataType:
+      scalarType: String
+  feedback:
+    identifier:
+      name: feedback
+    dataType:
+      scalarType: String
+  time_created:
+    identifier:
+      name: time_created
+    dataType:
+      scalarType: DateTime

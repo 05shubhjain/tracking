@@ -1,0 +1,22 @@
+key: Text_suxfv72k
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 4hfqujz1
+    selectable: false
+    textValue:
+      inputValue: Password
+      mostRecentInputValue: Password
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 4
+      mostRecentInputValue: 4
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}

@@ -1,0 +1,23 @@
+key: Text_8xx5rkcm
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: f07s7tjv
+    selectable: false
+    textValue:
+      inputValue: Share meal details
+      mostRecentInputValue: Share meal details
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    fontWeightValue:
+      inputValue: w500
+  padding:
+    type: FF_PADDING_ONLY
+    leftValue:
+      inputValue: 18
+      mostRecentInputValue: 18
+  responsiveVisibility: {}
+parameterValues: {}

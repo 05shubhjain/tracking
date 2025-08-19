@@ -1,0 +1,136 @@
+key: Button_copuberk
+type: Button
+props:
+  button:
+    text:
+      themeStyle: TITLE_SMALL
+      translationIdentifier:
+        key: d2v8g821
+      textValue:
+        inputValue: Send Feedback
+        mostRecentInputValue: Send Feedback
+    borderRadius:
+      type: FF_BORDER_RADIUS_ALL
+      topLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      topRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomLeftValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      bottomRightValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+      allValue:
+        inputValue: 25
+        mostRecentInputValue: 25
+    dimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+      height:
+        pixelsValue:
+          inputValue: 50
+          mostRecentInputValue: 50
+    elevationValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    fillColorValue:
+      inputValue:
+        themeColor: PRIMARY
+      mostRecentInputValue:
+        themeColor: PRIMARY
+    borderColorValue:
+      inputValue:
+        value: "0"
+      mostRecentInputValue:
+        value: "0"
+    borderWidthValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: rnzs2leq
+      action:
+        validateFormAction:
+          formNodeKeyPath:
+            keyPath:
+              - key: Form_m1ibb4j8
+        key: bngm09zn
+      followUpAction:
+        key: z5ojv6m0
+        action:
+          database:
+            createDocument:
+              collectionIdentifier:
+                name: feedback
+                key: tloyzkib
+              write:
+                updates:
+                  meal_name:
+                    fieldIdentifier:
+                      name: meal_name
+                    variable:
+                      source: WIDGET_CLASS_PARAMETER
+                      baseVariable:
+                        widgetClass:
+                          paramIdentifier:
+                            name: mealName
+                            key: zmlv1x
+                      nodeKeyRef:
+                        key: Container_oal5ub5l
+                  feedback:
+                    fieldIdentifier:
+                      name: feedback
+                      key: tloyzkib
+                    variable:
+                      source: WIDGET_STATE
+                      baseVariable:
+                        widgetState:
+                          returnParameter:
+                            allowedDestinationTypes:
+                              - Integer
+                              - Double
+                              - Boolean
+                              - ImagePath
+                              - VideoPath
+                              - AudioPath
+                            dataType:
+                              scalarType: String
+                      nodeKeyRef:
+                        key: TextField_iwkm3y6r
+                  time_created:
+                    fieldIdentifier:
+                      name: time_created
+                    variable:
+                      source: GLOBAL_PROPERTIES
+                      baseVariable:
+                        globalProperties:
+                          property: CURRENT_TIMESTAMP
+          key: dhn35zba
+        followUpAction:
+          key: tet9gw5v
+          action:
+            navigate:
+              isNavigateBack: false
+              closeDialog: true
+            key: 719xo6wt
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

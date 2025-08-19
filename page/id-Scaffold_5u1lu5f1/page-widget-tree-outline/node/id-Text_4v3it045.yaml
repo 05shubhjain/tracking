@@ -1,0 +1,12 @@
+key: Text_4v3it045
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: lvbfto3a
+    selectable: false
+    textValue:
+      inputValue: Total
+    fontWeightValue:
+      inputValue: w600

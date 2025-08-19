@@ -1,0 +1,12 @@
+key: RichTextSpan_ezd05yhv
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: BODY_SMALL
+      translationIdentifier:
+        key: 4wjpihri
+      textValue:
+        inputValue: "Already a member?  "
+        mostRecentInputValue: "Already a member?  "
+parameterValues: {}

@@ -1,0 +1,39 @@
+key: Container_797o4p1z
+type: Container
+props:
+  expanded:
+    expandedType: UNEXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    dwvi3i:
+      paramIdentifier:
+        name: backButton
+        key: dwvi3i
+      inputValue:
+        serializedValue: "true"
+    dk2qeb:
+      paramIdentifier:
+        name: actionButton
+        key: dk2qeb
+      inputValue:
+        serializedValue: "false"
+    sptaqo:
+      paramIdentifier:
+        name: actionButtonText
+        key: sptaqo
+    tzfie9:
+      paramIdentifier:
+        name: optionsButton
+        key: tzfie9
+      inputValue:
+        serializedValue: "false"
+  widgetClassNodeKeyRef:
+    key: Container_tonp2zmx
+valueKey: {}
+componentClassKeyRef:
+  key: Container_tonp2zmx

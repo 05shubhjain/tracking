@@ -1,0 +1,12 @@
+key: Text_t7x3wdd9
+type: Text
+props:
+  text:
+    themeStyle: BODY_LARGE
+    translationIdentifier:
+      key: 5nv01b15
+    selectable: false
+    textValue:
+      inputValue: $32.31
+    fontWeightValue:
+      inputValue: w600

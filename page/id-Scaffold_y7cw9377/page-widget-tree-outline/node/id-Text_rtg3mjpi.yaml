@@ -1,0 +1,10 @@
+key: Text_rtg3mjpi
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: wn3jcieo
+    selectable: false
+    textValue:
+      inputValue: Subtotal

@@ -1,0 +1,19 @@
+key: Text_j3hmllpa
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: njyh3huw
+    selectable: false
+    textValue:
+      inputValue: Brown Rice
+  padding:
+    leftValue:
+      inputValue: 8
+    topValue:
+      inputValue: 12
+    rightValue:
+      inputValue: 8
+    bottomValue:
+      inputValue: 12

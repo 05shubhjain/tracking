@@ -1,0 +1,33 @@
+name: dietItem
+params:
+  q8mtb2:
+    identifier:
+      name: dietType
+      key: q8mtb2
+    dataType:
+      scalarType: String
+      nonNullable: true
+  rshski:
+    identifier:
+      name: selectedDiet
+      key: rshski
+    dataType:
+      scalarType: String
+      nonNullable: true
+  sy0gwr:
+    identifier:
+      name: dietTagline
+      key: sy0gwr
+    dataType:
+      scalarType: String
+      nonNullable: true
+  wbe7rx:
+    identifier:
+      name: action
+      key: wbe7rx
+    dataType:
+      scalarType: Action
+      nonNullable: true
+node:
+  key: Container_6pjsrpie
+classModel: {}

@@ -1,0 +1,34 @@
+key: Text_tipdn6sk
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: xtc60foh
+    selectable: false
+    textValue:
+      variable:
+        source: WIDGET_CLASS_PARAMETER
+        defaultValue:
+          serializedValue: Title
+        baseVariable:
+          widgetClass:
+            paramIdentifier:
+              name: title
+              key: tzzyaf
+        nodeKeyRef:
+          key: Container_xvx1n2u0
+      mostRecentInputValue: No Meals
+    textAlignValue:
+      inputValue: ALIGN_CENTER
+  padding:
+    topValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

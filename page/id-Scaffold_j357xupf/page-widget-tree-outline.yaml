@@ -1,0 +1,12 @@
+node:
+  key: Scaffold_j357xupf
+  body:
+    key: Column_o7p1wguo
+    children:
+      - key: Column_qa18rt5m
+        children:
+          - key: Text_270rwwjo
+          - key: Text_54ghryws
+      - key: GridView_pju8yh48
+        children:
+          - key: Container_kia8ikej

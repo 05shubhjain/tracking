@@ -1,0 +1,16 @@
+key: Text_lc3auf3r
+type: Text
+props:
+  text:
+    themeStyle: TITLE_MEDIUM
+    translationIdentifier:
+      key: 6ohmb87c
+    selectable: false
+    textValue:
+      inputValue: Ingredients
+    colorValue:
+      inputValue:
+        themeColor: PRIMARY_TEXT
+    fontWeightValue:
+      inputValue: w600
+  padding: {}

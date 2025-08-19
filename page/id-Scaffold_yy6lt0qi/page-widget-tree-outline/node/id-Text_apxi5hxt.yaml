@@ -1,0 +1,17 @@
+key: Text_apxi5hxt
+type: Text
+props:
+  text:
+    themeStyle: DISPLAY_SMALL
+    translationIdentifier:
+      key: r65bhie9
+    selectable: false
+    textValue:
+      inputValue: Avocado Toast
+    heightValue:
+      inputValue: 1.2
+      mostRecentInputValue: 1.2
+  expanded:
+    expandedType: EXPANDED
+  responsiveVisibility: {}
+parameterValues: {}

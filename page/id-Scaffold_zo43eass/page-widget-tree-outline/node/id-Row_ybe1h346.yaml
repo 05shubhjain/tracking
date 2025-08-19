@@ -1,0 +1,30 @@
+key: Row_ybe1h346
+type: Row
+props:
+  row:
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: LogoutTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: dn1adr40
+      action:
+        auth:
+          type: LOGOUT
+        key: ixim0dme
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

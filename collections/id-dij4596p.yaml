@@ -1,0 +1,51 @@
+identifier:
+  name: users
+  key: dij4596p
+fields:
+  email:
+    identifier:
+      name: email
+    dataType:
+      scalarType: String
+  display_name:
+    identifier:
+      name: display_name
+    dataType:
+      scalarType: String
+  photo_url:
+    identifier:
+      name: photo_url
+    dataType:
+      scalarType: ImagePath
+  uid:
+    identifier:
+      name: uid
+    dataType:
+      scalarType: String
+  created_time:
+    identifier:
+      name: created_time
+    dataType:
+      scalarType: DateTime
+  phone_number:
+    identifier:
+      name: phone_number
+    dataType:
+      scalarType: String
+  diet:
+    identifier:
+      name: diet
+    dataType:
+      scalarType: String
+  allergens:
+    identifier:
+      name: allergens
+    dataType:
+      listType:
+        scalarType: String
+  ingredient_dislikes:
+    identifier:
+      name: ingredient_dislikes
+    dataType:
+      listType:
+        scalarType: String

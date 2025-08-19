@@ -1,0 +1,54 @@
+key: Column_26ly3lia
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: SendFeedbackTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: ytb6mmvt
+      action:
+        bottomSheet:
+          passedParameters:
+            parameterPasses:
+              zmlv1x:
+                paramIdentifier:
+                  name: mealName
+                  key: zmlv1x
+                variable:
+                  source: WIDGET_CLASS_PARAMETER
+                  baseVariable:
+                    widgetClass:
+                      paramIdentifier:
+                        name: mealRef
+                        key: grnl1v
+                  operations:
+                    - accessDocumentField:
+                        fieldIdentifier:
+                          name: meal_name
+                  nodeKeyRef:
+                    key: Container_awa62d1f
+            widgetClassNodeKeyRef:
+              key: Container_oal5ub5l
+          isDismiss: false
+          enableDrag: true
+          backgroundColor:
+            inputValue:
+              color:
+                themeColor: ACCENT_4
+          barrierColor:
+            inputValue:
+              color: {}
+          componentClassNodeKeyRef:
+            key: Container_oal5ub5l
+        key: jkslsa77
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

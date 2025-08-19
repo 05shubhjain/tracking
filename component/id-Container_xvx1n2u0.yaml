@@ -1,0 +1,27 @@
+name: emptyState
+params:
+  ds3a0k:
+    identifier:
+      name: icon
+      key: ds3a0k
+    dataType:
+      scalarType: WidgetProperty
+      nonNullable: true
+      subType:
+        widgetPropertyType: ICON
+  tzzyaf:
+    identifier:
+      name: title
+      key: tzzyaf
+    dataType:
+      scalarType: String
+      nonNullable: true
+  8gqdjk:
+    identifier:
+      name: description
+      key: 8gqdjk
+    dataType:
+      scalarType: String
+      nonNullable: true
+node:
+  key: Container_xvx1n2u0

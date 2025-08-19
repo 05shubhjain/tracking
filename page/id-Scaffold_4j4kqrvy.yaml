@@ -1,0 +1,7 @@
+name: EatingPreferences
+node:
+  key: Scaffold_4j4kqrvy
+pageRouteSettings:
+  routePath: eating-preferences
+  onlyAuthenticated: true
+classModel: {}

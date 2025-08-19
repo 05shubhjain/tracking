@@ -1,0 +1,8 @@
+key: Stack_ciufop49
+type: Stack
+props:
+  expanded:
+    expandedType: EXPANDED
+  stack:
+    dimensions: {}
+  responsiveVisibility: {}

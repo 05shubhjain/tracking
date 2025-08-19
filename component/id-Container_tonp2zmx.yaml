@@ -1,0 +1,51 @@
+name: customAppbar
+params:
+  dwvi3i:
+    identifier:
+      name: backButton
+      key: dwvi3i
+    dataType:
+      scalarType: Boolean
+      nonNullable: true
+  dk2qeb:
+    identifier:
+      name: actionButton
+      key: dk2qeb
+    defaultValue:
+      serializedValue: "false"
+    dataType:
+      scalarType: Boolean
+      nonNullable: false
+  sptaqo:
+    identifier:
+      name: actionButtonText
+      key: sptaqo
+    dataType:
+      scalarType: String
+      nonNullable: false
+  a5yeh6:
+    identifier:
+      name: actionButtonAction
+      key: a5yeh6
+    dataType:
+      scalarType: Action
+      nonNullable: false
+  tzfie9:
+    identifier:
+      name: optionsButton
+      key: tzfie9
+    defaultValue:
+      serializedValue: "false"
+    dataType:
+      scalarType: Boolean
+      nonNullable: true
+  tuljcd:
+    identifier:
+      name: optionsButtonAction
+      key: tuljcd
+    dataType:
+      scalarType: Action
+      nonNullable: true
+node:
+  key: Container_tonp2zmx
+classModel: {}

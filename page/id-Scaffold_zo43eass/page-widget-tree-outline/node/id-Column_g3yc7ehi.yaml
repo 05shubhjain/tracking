@@ -1,0 +1,34 @@
+key: Column_g3yc7ehi
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: company_information
+          key: xzif168n
+  firestore:
+    collectionIdentifier:
+      name: company_information
+      key: xzif168n
+    hideOnEmpty: true
+  requestManagerSettings: {}
+parameterValues: {}
+valueKey: {}

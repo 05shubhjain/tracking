@@ -1,0 +1,135 @@
+key: Column_3prdvk89
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  visibility:
+    visibleValue:
+      variable:
+        source: FUNCTION_CALL
+        functionCall:
+          conditionalValue:
+            ifConditionalValues:
+              - condition:
+                  source: FUNCTION_CALL
+                  functionCall:
+                    values:
+                      - variable:
+                          source: GLOBAL_PROPERTIES
+                          baseVariable:
+                            globalProperties:
+                              property: IS_IOS
+                      - variable:
+                          source: FUNCTION_CALL
+                          functionCall:
+                            values:
+                              - variable:
+                                  source: FIRESTORE_REQUEST
+                                  baseVariable:
+                                    firestore: {}
+                                  operations:
+                                    - accessDocumentField:
+                                        fieldIdentifier:
+                                          name: appleStoreURL
+                                  nodeKeyRef:
+                                    key: Column_g3yc7ehi
+                              - {}
+                            condition:
+                              relation: EXISTS_AND_NON_EMPTY
+                    combineConditions:
+                      operator: AND_OP
+                value:
+                  inputValue:
+                    serializedValue: "true"
+              - condition:
+                  source: FUNCTION_CALL
+                  functionCall:
+                    values:
+                      - variable:
+                          source: GLOBAL_PROPERTIES
+                          baseVariable:
+                            globalProperties:
+                              property: IS_ANDROID
+                      - variable:
+                          source: FUNCTION_CALL
+                          functionCall:
+                            values:
+                              - variable:
+                                  source: FIRESTORE_REQUEST
+                                  baseVariable:
+                                    firestore: {}
+                                  operations:
+                                    - accessDocumentField:
+                                        fieldIdentifier:
+                                          name: playStoreURL
+                                  nodeKeyRef:
+                                    key: Column_g3yc7ehi
+                              - {}
+                            condition:
+                              relation: EXISTS_AND_NON_EMPTY
+                    combineConditions:
+                      operator: AND_OP
+                value:
+                  inputValue:
+                    serializedValue: "true"
+            elseValue:
+              inputValue:
+                serializedValue: "false"
+            returnParameter:
+              dataType:
+                scalarType: Boolean
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: ShareTile
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: ear6z30w
+      conditionActions:
+        falseAction:
+          key: hmqq1gbl
+          action:
+            share:
+              shareLink:
+                variable:
+                  source: FIRESTORE_REQUEST
+                  baseVariable:
+                    firestore: {}
+                  operations:
+                    - accessDocumentField:
+                        fieldIdentifier:
+                          name: playStoreURL
+                  nodeKeyRef:
+                    key: Column_g3yc7ehi
+            key: x1acnm5s
+        trueActions:
+          - condition:
+              variable:
+                source: GLOBAL_PROPERTIES
+                baseVariable:
+                  globalProperties:
+                    property: IS_IOS
+            trueAction:
+              key: hteij0kk
+              action:
+                share:
+                  shareLink:
+                    variable:
+                      source: FIRESTORE_REQUEST
+                      baseVariable:
+                        firestore: {}
+                      operations:
+                        - accessDocumentField:
+                            fieldIdentifier:
+                              name: appleStoreURL
+                      nodeKeyRef:
+                        key: Column_g3yc7ehi
+                key: glucm5m9
+        key: 8tpxzbci
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

@@ -1,0 +1,6 @@
+name: Profile
+node:
+  key: Scaffold_zo43eass
+pageRouteSettings:
+  onlyAuthenticated: true
+classModel: {}

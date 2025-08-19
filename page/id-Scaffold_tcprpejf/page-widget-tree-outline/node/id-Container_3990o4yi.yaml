@@ -1,0 +1,29 @@
+key: Container_3990o4yi
+type: Container
+props:
+  alignment: {}
+  expanded: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues:
+  parameterPasses:
+    577hh4:
+      paramIdentifier:
+        name: title
+        key: 577hh4
+      inputValue:
+        serializedValue: Reset Password
+    5i4eev:
+      paramIdentifier:
+        name: subtitle
+        key: 5i4eev
+      inputValue:
+        serializedValue: Recieve a link via email to reset your password.
+  widgetClassNodeKeyRef:
+    key: Container_fdejkm03
+valueKey: {}
+componentClassKeyRef:
+  key: Container_fdejkm03

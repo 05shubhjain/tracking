@@ -1,0 +1,14 @@
+key: Column_k8a030z3
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_end
+    primary: true
+  alignment:
+    xValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+    yValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  responsiveVisibility: {}

@@ -1,0 +1,10 @@
+key: Text_egia3ujh
+type: Text
+props:
+  text:
+    themeStyle: BODY_SMALL
+    translationIdentifier:
+      key: 0l2k5tzw
+    selectable: false
+    textValue:
+      inputValue: Fat

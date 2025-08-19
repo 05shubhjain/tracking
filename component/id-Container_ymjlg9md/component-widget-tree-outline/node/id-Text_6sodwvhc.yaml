@@ -1,0 +1,28 @@
+key: Text_6sodwvhc
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: l3c5nbdi
+    selectable: false
+    textValue:
+      inputValue: Is the food healthy ?
+    fontSizeValue:
+      inputValue: 16
+      mostRecentInputValue: 16
+    heightValue:
+      inputValue: 1.2
+      mostRecentInputValue: 1.2
+    fontWeightValue:
+      inputValue: w600
+  expanded:
+    expandedType: EXPANDED
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: question
+parameterValues: {}
+valueKey: {}

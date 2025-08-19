@@ -1,0 +1,33 @@
+key: Row_4ukbm94e
+type: Row
+props:
+  row:
+    mainAxisAlignment: main_axis_center
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    topValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: h2egvue9
+      action:
+        navigate:
+          allowBack: true
+          passedParameters:
+            widgetClassNodeKeyRef:
+              key: Scaffold_upb7exa8
+          isNavigateBack: false
+          pageNodeKeyRef:
+            key: Scaffold_upb7exa8
+        key: n4jhsn63
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

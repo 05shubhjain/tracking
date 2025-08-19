@@ -1,0 +1,14 @@
+key: Column_q8jhyu42
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+name: allergensTile
+parameterValues: {}
+valueKey: {}

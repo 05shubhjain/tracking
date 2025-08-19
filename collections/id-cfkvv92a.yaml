@@ -1,0 +1,14 @@
+identifier:
+  name: support_center
+  key: cfkvv92a
+fields:
+  question:
+    identifier:
+      name: question
+    dataType:
+      scalarType: String
+  answer:
+    identifier:
+      name: answer
+    dataType:
+      scalarType: String

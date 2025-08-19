@@ -1,0 +1,27 @@
+name: preferenceItem
+params:
+  loe9il:
+    identifier:
+      name: text
+      key: loe9il
+    dataType:
+      scalarType: String
+      nonNullable: true
+  9dohyn:
+    identifier:
+      name: selectedItems
+      key: 9dohyn
+    dataType:
+      listType:
+        scalarType: String
+      nonNullable: true
+  2yopmu:
+    identifier:
+      name: action
+      key: 2yopmu
+    dataType:
+      scalarType: Action
+      nonNullable: true
+node:
+  key: Container_ndy9exy5
+classModel: {}

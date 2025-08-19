@@ -1,0 +1,40 @@
+key: Form_o076qyyd
+type: Form
+props:
+  responsiveVisibility: {}
+  form:
+    validations:
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: 2xnd42jl
+            textValue:
+              inputValue: Email is required.
+              mostRecentInputValue: Email is required.
+          emailRegex: true
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: dj1rve5w
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_a4svmzii
+      - isRequired: true
+        text:
+          isRequiredFailMsg:
+            translationIdentifier:
+              key: 9tyhbmdw
+            textValue:
+              inputValue: Passsword is required.
+              mostRecentInputValue: Passsword is required.
+          selectedOptionFailMsg:
+            translationIdentifier:
+              key: 6fhsm0au
+            textValue:
+              inputValue: Please choose an option from the dropdown
+              mostRecentInputValue: Please choose an option from the dropdown
+        nodeKeyRef:
+          key: TextField_trzaxjtz
+name: signInForm

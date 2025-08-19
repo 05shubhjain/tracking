@@ -1,0 +1,76 @@
+key: Icon_u6bzfisk
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 32
+      mostRecentInputValue: 32
+    colorValue:
+      inputValue:
+        value: "4294921817"
+      mostRecentInputValue:
+        value: "4294921817"
+    iconDataValue:
+      inputValue:
+        codePoint: 63288
+        family: MaterialIcons
+        matchTextDirection: false
+        name: favorite_rounded
+  padding:
+    type: FF_PADDING_ALL
+    allValue:
+      inputValue: 0
+      mostRecentInputValue: 0
+  alignment:
+    xValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+    yValue:
+      inputValue: -1
+      mostRecentInputValue: -1
+  visibility:
+    visibleValue:
+      variable:
+        source: FIRESTORE_REQUEST
+        baseVariable:
+          firestore: {}
+        operations:
+          - accessDocumentField:
+              fieldIdentifier:
+                name: meal_favorites
+          - listContains:
+              element:
+                source: FIREBASE_AUTH_USER
+                baseVariable:
+                  auth:
+                    property: USER_REFERENCE
+        nodeKeyRef:
+          key: Stack_9idss4zc
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+animations:
+  - trigger: ON_PAGE_LOAD
+    effects:
+      - curve: ELASTIC_OUT
+        scale:
+          beginDx:
+            inputValue:
+              serializedValue: "0.0"
+          endDx:
+            inputValue:
+              serializedValue: "1.0"
+          beginDy:
+            inputValue:
+              serializedValue: "0.0"
+          endDy:
+            inputValue:
+              serializedValue: "1.0"
+        duration:
+          inputValue:
+            serializedValue: "600.0"
+    applyInitialState: true
+valueKey: {}

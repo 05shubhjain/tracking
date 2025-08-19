@@ -1,0 +1,18 @@
+key: Column_zich5a8g
+type: Column
+props:
+  column:
+    mainAxisAlignment: main_axis_space_between
+    scrollable: false
+    primary: true
+    listSpacing: {}
+    minSizeValue:
+      inputValue: false
+      mostRecentInputValue: false
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

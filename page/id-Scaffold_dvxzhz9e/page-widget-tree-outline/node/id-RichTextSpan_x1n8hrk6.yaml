@@ -1,0 +1,12 @@
+key: RichTextSpan_x1n8hrk6
+type: RichTextSpan
+props:
+  richTextSpan:
+    textSpan:
+      themeStyle: DISPLAY_SMALL
+      translationIdentifier:
+        key: ftlk10x5
+      textValue:
+        inputValue: Meal
+        mostRecentInputValue: Meal
+parameterValues: {}

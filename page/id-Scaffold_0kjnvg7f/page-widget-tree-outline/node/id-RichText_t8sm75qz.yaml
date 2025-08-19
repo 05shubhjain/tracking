@@ -1,0 +1,50 @@
+key: RichText_t8sm75qz
+type: RichText
+props:
+  expanded:
+    expandedType: EXPANDED
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget: {}
+  richText:
+    textStyle:
+      themeStyle: BODY_SMALL
+      textAlignValue:
+        inputValue: ALIGN_CENTER
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+databaseRequest:
+  returnParameter:
+    dataType:
+      scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: company_information
+          key: xzif168n
+  firestore:
+    collectionIdentifier:
+      name: company_information
+      key: xzif168n
+    hideOnEmpty: true
+parameterValues: {}
+triggerActions:
+  - rootAction:
+      key: 9jos9st1
+      action:
+        launchUrl:
+          variable:
+            source: FIRESTORE_REQUEST
+            baseVariable:
+              firestore: {}
+            operations:
+              - accessDocumentField:
+                  fieldIdentifier:
+                    name: termsURL
+            nodeKeyRef:
+              key: RichText_t8sm75qz
+        key: 4wvkgnte
+    trigger:
+      triggerType: ON_TAP
+valueKey: {}

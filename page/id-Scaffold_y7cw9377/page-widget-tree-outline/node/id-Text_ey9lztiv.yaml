@@ -1,0 +1,11 @@
+key: Text_ey9lztiv
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: vjw2byeh
+    selectable: false
+    textValue:
+      inputValue: Review your meal details before checkout.
+  padding: {}

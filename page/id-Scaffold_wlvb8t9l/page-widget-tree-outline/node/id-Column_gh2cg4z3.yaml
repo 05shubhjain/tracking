@@ -1,0 +1,18 @@
+key: Column_gh2cg4z3
+type: Column
+props:
+  column:
+    primary: true
+    listSpacing: {}
+  padding:
+    type: FF_PADDING_ONLY
+    bottomValue:
+      inputValue: 12
+      mostRecentInputValue: 12
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

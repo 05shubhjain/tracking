@@ -1,0 +1,15 @@
+key: Text_5ogxa1ml
+type: Text
+props:
+  text:
+    themeStyle: LABEL_LARGE
+    translationIdentifier:
+      key: 9i4739pw
+    selectable: false
+    textValue:
+      inputValue: Track your meal delivery in real-time.
+  padding:
+    leftValue:
+      inputValue: 0
+    rightValue:
+      inputValue: 0

@@ -1,0 +1,50 @@
+key: Icon_nsu09vsy
+type: Icon
+props:
+  icon:
+    sizeValue:
+      inputValue: 48
+      mostRecentInputValue: 48
+    colorValue:
+      inputValue:
+        themeColor: SECONDARY_TEXT
+      mostRecentInputValue:
+        themeColor: SECONDARY_TEXT
+    iconDataValue:
+      inputValue:
+        codePoint: 61513
+        family: MaterialIcons
+        matchTextDirection: false
+        name: fastfood_outlined
+    variable:
+      source: WIDGET_CLASS_PARAMETER
+      baseVariable:
+        widgetClass:
+          paramIdentifier:
+            name: icon
+            key: ds3a0k
+      nodeKeyRef:
+        key: Container_xvx1n2u0
+      uiBuilderValue:
+        icon:
+          sizeValue:
+            inputValue: 48
+            mostRecentInputValue: 48
+          colorValue:
+            inputValue:
+              themeColor: SECONDARY_TEXT
+            mostRecentInputValue:
+              themeColor: SECONDARY_TEXT
+          iconDataValue:
+            inputValue:
+              codePoint: 61513
+              family: MaterialIcons
+              matchTextDirection: false
+              name: fastfood_outlined
+  responsiveVisibility: {}
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+parameterValues: {}
+valueKey: {}

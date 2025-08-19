@@ -1,0 +1,124 @@
+key: GridView_pju8yh48
+type: GridView
+props:
+  padding:
+    type: FF_PADDING_ALL
+    topValue:
+      inputValue: 8
+      mostRecentInputValue: 8
+    allValue:
+      inputValue: 14
+      mostRecentInputValue: 14
+  gridView:
+    shrinkWrapValue:
+      inputValue: false
+      mostRecentInputValue: false
+    crossAxisCountValue:
+      inputValue: 2
+      mostRecentInputValue: 2
+    crossAxisSpacingValue:
+      inputValue: 10
+      mostRecentInputValue: 10
+    mainAxisSpacingValue:
+      inputValue: 10
+      mostRecentInputValue: 10
+    childAspectRatioValue:
+      inputValue: 0.78
+      mostRecentInputValue: 0.78
+    isHorizontalValue:
+      inputValue: false
+      mostRecentInputValue: false
+  expanded:
+    expandedType: EXPANDED
+  emptyListWidget:
+    show: true
+    displayInFlutterFlow: false
+    center: false
+    componentDimensions:
+      width:
+        pixelsValue:
+          inputValue: Infinity
+          mostRecentInputValue: Infinity
+    componentParameters:
+      parameterPasses:
+        ds3a0k:
+          paramIdentifier:
+            name: icon
+            key: ds3a0k
+          widgetProperty:
+            icon:
+              sizeValue:
+                inputValue: 64
+                mostRecentInputValue: 64
+              colorValue:
+                inputValue:
+                  themeColor: SECONDARY_TEXT
+                mostRecentInputValue:
+                  themeColor: SECONDARY_TEXT
+              iconDataValue:
+                inputValue:
+                  codePoint: 61982
+                  family: MaterialIcons
+                  matchTextDirection: false
+                  name: no_food_outlined
+        tzzyaf:
+          paramIdentifier:
+            name: title
+            key: tzzyaf
+          inputValue:
+            serializedValue: No Meals
+        8gqdjk:
+          paramIdentifier:
+            name: description
+            key: 8gqdjk
+          inputValue:
+            serializedValue: No meals have been created or match your dietary preferences.
+      widgetClassNodeKeyRef:
+        key: Container_xvx1n2u0
+    componentClassNodeKeyRef:
+      key: Container_xvx1n2u0
+  responsiveVisibility: {}
+  queryLoadingWidget:
+    loadingWidget:
+      componentDimensions: {}
+      componentParameters:
+        widgetClassNodeKeyRef:
+          key: Container_mygm5cp5
+      componentClassNodeKeyRef:
+        key: Container_mygm5cp5
+    displayInFlutterFlow: false
+  opacity:
+    opacityValue:
+      inputValue: 1
+      mostRecentInputValue: 1
+databaseRequest:
+  returnParameter:
+    dataType:
+      listType:
+        scalarType: Document
+      subType:
+        collectionIdentifier:
+          name: meals
+          key: k3qo0axl
+  firestore:
+    collectionIdentifier:
+      name: meals
+      key: k3qo0axl
+    hideOnEmpty: false
+    where:
+      filters:
+        - baseFilter:
+            collectionFieldIdentifier:
+              name: meal_diet
+            relation: ARRAY_CONTAINS
+            variable:
+              source: FIREBASE_AUTH_USER
+              baseVariable:
+                auth:
+                  property: USERS_DATA_FIELD
+                  usersDataField:
+                    name: diet
+      isAnd: true
+  requestManagerSettings: {}
+parameterValues: {}
+valueKey: {}

@@ -1,0 +1,8 @@
+userDefinedPermissions:
+  - type: NOTIFICATIONS
+    message:
+      translationIdentifier:
+        key: r1nvfjgp
+      textValue:
+        inputValue: MealPlanner needs to send you notifications about meal updates and other important messages.
+        mostRecentInputValue: MealPlanner needs to send you notifications about meal updates and other important messages.

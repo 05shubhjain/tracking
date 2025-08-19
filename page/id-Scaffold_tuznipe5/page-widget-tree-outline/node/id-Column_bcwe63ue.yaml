@@ -1,0 +1,6 @@
+key: Column_bcwe63ue
+type: Column
+props:
+  column:
+    primary: true
+  responsiveVisibility: {}

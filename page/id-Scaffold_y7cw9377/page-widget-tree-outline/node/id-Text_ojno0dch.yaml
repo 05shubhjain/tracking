@@ -1,0 +1,12 @@
+key: Text_ojno0dch
+type: Text
+props:
+  text:
+    themeStyle: BODY_MEDIUM
+    translationIdentifier:
+      key: 64yupucr
+    selectable: false
+    textValue:
+      inputValue: Estimated Delivery Time
+    fontWeightValue:
+      inputValue: w600
